@@ -6,18 +6,18 @@ This vault contains study notes, projects, and documentation organized by topic.
 
 ## Study Areas
 
-- [Linux](./Linux/) - Operating system fundamentals and system administration
-- [IaC](./IaC) - Infrastructure as Code (planned)
-- [Docker](./Docker/) - Containerization and orchestration (planned)
-- [Kubernetes](./Kubernetes/) - Container orchestration (planned)
-- [Networking](./Networking/) - Network fundamentals (planned)
-- [Monitoring](./Monitoring/) - Observability and alerting (planned)
-- [Cloud](./Cloud) - Multicloud Infrastructure (planned)
-- [AI](./AI) - AI for SREs (planned)
+- [Linux](./Linux/README.md) - Operating system fundamentals and system administration
+- [IaC](./IaC/README.md) - Infrastructure as Code (planned)
+- [Docker](./Docker/README.md) - Containerization and orchestration (planned)
+- [Kubernetes](./Kubernetes/README.md) - Container orchestration (planned)
+- [Networking](./Networking/README.md) - Network fundamentals (planned)
+- [Monitoring](./Monitoring/README.md) - Observability and alerting (planned)
+- [Cloud](./Cloud/README.md) - Multicloud Infrastructure (planned)
+- [AI](./AI/README.md) - AI for SREs (planned)
 
 ## Projects
 
-- [Projects](./Projects/) - Overarching projects and portfolio pieces
+- [Projects](./Projects/README.md) - Overarching projects and portfolio pieces
 
 ## How This Works
 
