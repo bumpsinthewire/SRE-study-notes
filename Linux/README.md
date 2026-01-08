@@ -4,7 +4,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 
 ## Projects
 
-- [Managing Files](./Managing_Files/) - Python automation for bulk file operations
+- [Managing Files](./Managing_Files/README.md) - Python automation for bulk file operations
 
 ## Study Notes
 
