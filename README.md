@@ -22,4 +22,4 @@ Each study area follows this structure:
 - **Project folders**: Individual projects with their own README (blog-style documentation)
 - **Study notes**: Detailed technical notes from learning sessions
 
-All content is version controlled and synced across my devices via iCloud.
+All content is version controlled and synced across my devices via iCloud and Git.
