@@ -7,10 +7,13 @@ This vault contains study notes, projects, and documentation organized by topic.
 ## Study Areas
 
 - [Linux](./Linux/) - Operating system fundamentals and system administration
+- [IaC](./IaC) - Infrastructure as Code (planned)
 - [Docker](./Docker/) - Containerization and orchestration (planned)
 - [Kubernetes](./Kubernetes/) - Container orchestration (planned)
 - [Networking](./Networking/) - Network fundamentals (planned)
 - [Monitoring](./Monitoring/) - Observability and alerting (planned)
+- [Cloud](./Cloud) - Multicloud Infrastructure (planned)
+- [AI](./AI) - AI for SREs (planned)
 
 ## How This Works
 
