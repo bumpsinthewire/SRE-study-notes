@@ -15,6 +15,10 @@ This vault contains study notes, projects, and documentation organized by topic.
 - [Cloud](./Cloud) - Multicloud Infrastructure (planned)
 - [AI](./AI) - AI for SREs (planned)
 
+## Projects
+
+- [Projects](./Projects/) - Overarching projects and portfolio pieces
+
 ## How This Works
 
 Each study area follows this structure:
