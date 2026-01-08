@@ -12,12 +12,13 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 
 ## Progress
 
-- [ ] Basic commands and file system navigation
-- [ ] File permissions and ownership
-- [ ] Process management
-- [ ] System administration basics
-- [ ] Shell scripting
-- [ ] Advanced topics (security, networking, etc.)
+- [ ] Logging in and System Documentation
+- [ ] Files, Directories, Hard and Soft Links
+- [ ] File Permissions, Search for Files
+- [ ] File Content, Regular Expressions
+- [ ] Archive, Back Up, Compress, IO Redirection
+- [ ] Git & SSL Certificates
+- [ ] Scripting, Manage Startup Process and Services
 
 ## Goals
 
