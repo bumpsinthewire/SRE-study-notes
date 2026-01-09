@@ -8,7 +8,6 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 
 ## Study Notes
 
-*(Add links to individual study note files as you progress)*
 
 ## Progress
 
