@@ -12,7 +12,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 
 ## Progress
 
-- [ ] Logging in and System Documentation
+- [x] Logging in and System Documentation
 - [ ] Files, Directories, Hard and Soft Links
 - [ ] File Permissions, Search for Files
 - [ ] File Content, Regular Expressions

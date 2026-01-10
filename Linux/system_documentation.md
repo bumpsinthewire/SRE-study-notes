@@ -30,8 +30,4 @@ commands will be in sections 1 and 8 of the `man` pages. sometimes `apropos` wil
 
 ## Resources
 
-*(Links to documentation, tutorials, etc.)*
-
 ## Next Steps
-
-*(What to explore next)*
