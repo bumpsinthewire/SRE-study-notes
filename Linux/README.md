@@ -8,6 +8,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 
 ## Study Notes
 
+[system_documentation](Linux/system_documentation.md)
 
 ## Progress
 
