@@ -14,6 +14,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [permissions_and_bits](./permissions_and_bits.md)
 - [file_search](./file_search.md)
 - [search_manipulate_file_content](./search_manipulate_file_content.md)
+- [grep_regex](./grep_regex.md)
 
 ## Progress
 
