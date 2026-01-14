@@ -1,4 +1,4 @@
-# Managing Files Project
+# Project Template
 
 ## Overview
 
