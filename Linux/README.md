@@ -8,11 +8,11 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 
 ## Study Notes
 
-[system_documentation](Linux/system_documentation.md)
-[files_and_directories](Linux/files_and_directories.md)
-[hard_soft_links](Linux/hard_soft_links.md)
-[permissions_and_bits](Linux/permissions_and_bits.md)
-[file_search](Linux/file_search.md)
+- [system_documentation](./system_documentation.md)
+- [files_and_directories](./files_and_directories.md)
+- [hard_soft_links](./hard_soft_links.md)
+- [permissions_and_bits](./permissions_and_bits.md)
+- [file_search](./file_search.md)
 
 ## Progress
 
