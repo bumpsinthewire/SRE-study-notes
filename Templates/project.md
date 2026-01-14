@@ -2,9 +2,7 @@
 title: "{{title}}"
 date: "{{date}}"
 type: project
-tags:
-  - project
-  - linux
+tags: [project, linux]
 ---
 
 # {{title}}
