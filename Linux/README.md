@@ -13,6 +13,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [hard_soft_links](./hard_soft_links.md)
 - [permissions_and_bits](./permissions_and_bits.md)
 - [file_search](./file_search.md)
+- [search_manipulate_file_content](./search_manipulate_file_content.md)
 
 ## Progress
 
