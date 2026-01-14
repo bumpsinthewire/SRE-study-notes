@@ -15,13 +15,14 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [file_search](./file_search.md)
 - [search_manipulate_file_content](./search_manipulate_file_content.md)
 - [grep_regex](./grep_regex.md)
+- [archive_backup_compress](./archive_backup_compress.md)
 
 ## Progress
 
 - [x] Logging in and System Documentation
 - [x] Files, Directories, Hard and Soft Links
 - [x] File Permissions, Search for Files
-- [ ] File Content, Regular Expressions
+- [x] File Content, Regular Expressions
 - [ ] Archive, Back Up, Compress, IO Redirection
 - [ ] Git & SSL Certificates
 - [ ] Scripting, Manage Startup Process and Services
