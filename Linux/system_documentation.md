@@ -29,5 +29,5 @@ Various methods for referencing built-in documentation
 commands will be in sections 1 and 8 of the `man` pages. sometimes `apropos` will return ones from other sections
 
 ## Resources
-
-## Next Steps
+[Linux man pages](https://linux.die.net/man/)
+[Linux man pages online](https://man7.org/linux/man-pages/)
