@@ -31,11 +31,3 @@ OpenSSL is the most commonly used utility for creating these certificates but it
 Even though everyone talks about them as "SSL certificates", these day's SSL has been replaced with TLS (Transport Layer Security)
 Creating a new key and CSR and then getting it validated by a CA is the "professional" way to work with certificates
 Creating a self-signed certificate is usually reserved for lab environments
-
-## Resources
-
-*(Links to documentation, tutorials, etc.)*
-
-## Next Steps
-
-*(What to explore next)*
