@@ -16,6 +16,8 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [search_manipulate_file_content](./search_manipulate_file_content.md)
 - [grep_regex](./grep_regex.md)
 - [archive_backup_compress](./archive_backup_compress.md)
+- [input-output_redirection](./input-output_redirection.md)
+- [ssl_certs](./ssl_certs.md)
 
 ## Progress
 
@@ -23,7 +25,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Files, Directories, Hard and Soft Links
 - [x] File Permissions, Search for Files
 - [x] File Content, Regular Expressions
-- [ ] Archive, Back Up, Compress, IO Redirection
+- [x] Archive, Back Up, Compress, IO Redirection
 - [ ] Git & SSL Certificates
 - [ ] Scripting, Manage Startup Process and Services
 - [ ] Manage Processes and Analyze Log Files
