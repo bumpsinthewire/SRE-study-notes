@@ -1,11 +1,11 @@
 ---
-title: "search_manipulate_file_content"
+title: "search_and_manipulate_file_content"
 date: "2026-01-14"
 type: study_notes
 tags: [study, linux]
 ---
 
-# search_manipulate_file_content
+# search_and_manipulate_file_content
 
 ## Key Concepts
 

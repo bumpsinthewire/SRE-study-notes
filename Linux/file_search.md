@@ -24,7 +24,7 @@ Since Linux is one giant filesystem tree, search is extremely useful
     `-cmin [number]` search for changes during a window (same syntax as `-mmin`)
     `-size [size]` add "c" for bytes, "k" for kilobytes, "M" for megabytes, "G" for gigabytes
     `-perm [permissions]`
-        "664" will find files with exactly those permissions. 
+        "664" will find files with exactly those permissions.
         "-664" will find files with at least those permissions
         "/664" will find files with any of those permissions
         can use the standard notations as well (u=rw,g=rw,o=r)

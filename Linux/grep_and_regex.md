@@ -1,11 +1,11 @@
 ---
-title: "grep_regex"
+title: "grep_and_regex"
 date: "2026-01-14"
 type: study_notes
 tags: [study, linux]
 ---
 
-# grep_regex
+# grep_and_regex
 
 ## Key Concepts
 
@@ -24,7 +24,7 @@ Regex is like reciting magical incantations that let you search for more specifi
 Regex spells (put them in your pattern):
 `^` the line begins with (put at the beginning of the pattern)
     `grep '^test' [directory/filename]` matches any line beginning with "test"
-    
+
 `$` the line ends with (put at the end of the pattern)
     `grep 'test$' [directory/filename]` matches any line ending in "test"
 
@@ -67,7 +67,7 @@ Extended regex allows you to bypass having to use the escape character (\) for r
 
 ## Questions & Notes
 
-It is useful to wrap your patter in single quotes ('') to prevent bash from interpreting special characters 
+It is useful to wrap your patter in single quotes ('') to prevent bash from interpreting special characters
 Grep highlights with color to help you understand the output (unless you use sudo and then you must add the --color option)
 You can use pretty much any combination of `grep` options as well as regex symbols together
 

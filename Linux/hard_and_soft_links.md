@@ -1,16 +1,16 @@
 ---
-title: "hard_soft_links"
+title: "hard_and_soft_links"
 date: "2026-01-13"
 type: study_notes
 tags: [study, linux]
 ---
 
-# hard_soft_links
+# hard_and_soft_links
 
 ## Key Concepts
 
 Hard links are essentially a filename that links to a specific inode (location in memory)
-Soft links (also called sym links or symbolic links) allow you to point to another file (kind of like a shortcut) 
+Soft links (also called sym links or symbolic links) allow you to point to another file (kind of like a shortcut)
 
 ## Commands & Examples
 

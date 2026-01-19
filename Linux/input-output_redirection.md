@@ -10,7 +10,7 @@ tags: [study, linux]
 ## Key Concepts
 
 Linux allows you to redirect both input and output streams to a location of your choosing
-There are three things to know here: 
+There are three things to know here:
     "stdin" (<) is for standard input
     "stdout" (1>) is for standard output
     "stderr" (2>) is also for output but for errors

@@ -1,11 +1,11 @@
 ---
-title: "startup-process_services"
+title: "startup-process_and_services"
 date: "2026-01-19"
 type: study_notes
 tags: [study, linux]
 ---
 
-# startup-process_services
+# startup-process_and_services
 
 ## Key Concepts
 

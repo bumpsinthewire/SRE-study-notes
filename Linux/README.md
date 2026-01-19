@@ -8,17 +8,18 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 
 ## Study Notes
 
-- [system_documentation](./system_documentation.md)
-- [files_and_directories](./files_and_directories.md)
-- [hard_soft_links](./hard_soft_links.md)
-- [permissions_and_bits](./permissions_and_bits.md)
-- [file_search](./file_search.md)
-- [search_manipulate_file_content](./search_manipulate_file_content.md)
-- [grep_regex](./grep_regex.md)
 - [archive_backup_compress](./archive_backup_compress.md)
+- [file_search](./file_search.md)
+- [files_and_directories](./files_and_directories.md)
+- [grep_and_regex](./grep_and_regex.md)
+- [hard_and_soft_links](./hard_and_soft_links.md)
 - [input-output_redirection](./input-output_redirection.md)
+- [manage_processes_and_logging](./manage_processes_and_logging.md)
+- [permissions_and_bits](./permissions_and_bits.md)
+- [search_and_manipulate_file_content](./search_and_manipulate_file_content.md)
 - [ssl_certs](./ssl_certs.md)
-- [startup-process_services](./startup-process_services.md)
+- [startup-processes_and_services](./startup-processes_and_services.md)
+- [system_documentation](./system_documentation.md)
 
 ## Progress
 
@@ -28,7 +29,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] File Content, Regular Expressions
 - [x] Archive, Back Up, Compress, IO Redirection
 - [x] Git & SSL Certificates
-- [ ] Scripting, Manage Startup Process and Services
+- [x] Scripting, Manage Startup Process and Services
 - [ ] Manage Processes and Analyze Log Files
 - [ ] Schedule Tasks
 - [ ] Manage Software, Repositories & Install Software from Source
