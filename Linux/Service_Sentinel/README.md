@@ -40,3 +40,7 @@ tags: [project, linux]
 *(Outcomes and impact)*
 
 *(Add a screenshot or code block showing the output of the script)*
+
+### Parent Note
+
+- [Linux Study Journey](../README.md)

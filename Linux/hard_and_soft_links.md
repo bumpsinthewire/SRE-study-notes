@@ -24,3 +24,7 @@ Hard links allow you to store a file one time, but have multiple pointers to tha
     If all links to an inode are deleted, the data will be deleted as well
     Hard links can only be used for files, not folders and can only be linked to files on the same filesystem
 Soft links can be used to point to other filesystems and to directories
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)

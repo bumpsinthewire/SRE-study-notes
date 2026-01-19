@@ -31,3 +31,7 @@ There are three things to know here:
 
 Since there are two types of output, you can append the ">" with 1 or 2 depending on what you want to output (stdout or stderr)
 stdout is the default so it's uncommon to use "1>"
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)

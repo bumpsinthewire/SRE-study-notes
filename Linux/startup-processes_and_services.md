@@ -49,3 +49,7 @@ init = initialization system. This is the tool that contains all of the instruct
 
 [Systemd Essentials: Working with Services, Units, and the Journal](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
 [Working with systemd unit files](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/using_systemd_unit_files_to_customize_and_optimize_your_system/assembly_working-with-systemd-unit-files_working-with-systemd)
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)

@@ -49,3 +49,7 @@ To set the sticky bit, use `chmod +t [directory]` or `chmod 1xxx [directory]`
 ## Questions & Notes
 
 use `groups` to see the groups the current user belongs to
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)

@@ -32,3 +32,7 @@ commands will be in sections 1 and 8 of the `man` pages. sometimes `apropos` wil
 
 [Linux man pages](https://linux.die.net/man/)
 [Linux man pages online](https://man7.org/linux/man-pages/)
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)

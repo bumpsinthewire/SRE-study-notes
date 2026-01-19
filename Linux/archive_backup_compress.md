@@ -45,3 +45,7 @@ Backup usually just involves copying
 `zip` is another utility that is sometimes installed and does both archiving and compression
 `dd` is mostly used for disk imaging but has a bit more complicated syntax
     DO NOT run this on a VM as it will overwrite it
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)

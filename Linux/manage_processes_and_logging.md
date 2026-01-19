@@ -26,3 +26,7 @@ tags: [study, linux]
 ## Next Steps
 
 *(What to explore next)*
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)

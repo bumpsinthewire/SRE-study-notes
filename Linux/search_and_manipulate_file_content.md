@@ -42,3 +42,7 @@ There are many ways to view and manipulate content in Linux
 ## Questions & Notes
 
 Sed patterns should be wrapped in single quotes ('') to prevent bash from interpreting special characters
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)

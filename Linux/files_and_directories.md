@@ -33,3 +33,7 @@ Thinking of everything in Linux as an inverted filesystem tree is helpful for na
 
 `rm` is for removing files/directories
     `-r` must be used to recursively delete
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)

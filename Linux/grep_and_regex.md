@@ -74,3 +74,7 @@ You can use pretty much any combination of `grep` options as well as regex symbo
 ## Resources
 
 [RegExr: Learn, Build, & Test RegEx](https://regexr.com/)
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)

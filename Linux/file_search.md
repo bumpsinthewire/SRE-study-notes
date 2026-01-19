@@ -33,3 +33,7 @@ Since Linux is one giant filesystem tree, search is extremely useful
 
 Think "go there and then find it" to remember the `find` syntax
 If you have multiple parameters, there is an implied AND operator. Use `-o` for OR operator. Use `-not` for NOT operator (can also use `\!`)
+
+### Parent Note
+
+- [Linux Study Journey](./README.md)
