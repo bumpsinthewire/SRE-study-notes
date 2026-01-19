@@ -1,11 +1,11 @@
 ---
-title: "{{title}}"
-date: "{{date}}"
+title: "Service Sentinel"
+date: "2026-01-19"
 type: project
 tags: [project, linux]
 ---
 
-# {{title}}
+# Service Sentinel
 
 ## Overview
 

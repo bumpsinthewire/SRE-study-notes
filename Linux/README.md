@@ -4,7 +4,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 
 ## Projects
 
-- [Project Template](./Project_Template/README.md) - Python automation for bulk file operations
+- [Service Sentinel](./Service_Sentinel/README.md) - Python automation for restarting crashed services
 
 ## Study Notes
 
@@ -18,6 +18,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [archive_backup_compress](./archive_backup_compress.md)
 - [input-output_redirection](./input-output_redirection.md)
 - [ssl_certs](./ssl_certs.md)
+- [startup-process_services](./startup-process_services.md)
 
 ## Progress
 
@@ -26,7 +27,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] File Permissions, Search for Files
 - [x] File Content, Regular Expressions
 - [x] Archive, Back Up, Compress, IO Redirection
-- [ ] Git & SSL Certificates
+- [x] Git & SSL Certificates
 - [ ] Scripting, Manage Startup Process and Services
 - [ ] Manage Processes and Analyze Log Files
 - [ ] Schedule Tasks
