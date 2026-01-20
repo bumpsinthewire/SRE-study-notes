@@ -16,6 +16,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [input-output_redirection](./input-output_redirection.md)
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
 - [permissions_and_bits](./permissions_and_bits.md)
+- [schedule_tasks](./schedule_tasks.md)
 - [search_and_manipulate_file_content](./search_and_manipulate_file_content.md)
 - [ssl_certs](./ssl_certs.md)
 - [startup-processes_and_services](./startup-processes_and_services.md)
@@ -30,7 +31,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Archive, Back Up, Compress, IO Redirection
 - [x] Git & SSL Certificates
 - [x] Scripting, Manage Startup Process and Services
-- [ ] Manage Processes and Analyze Log Files
+- [x] Manage Processes and Analyze Log Files
 - [ ] Schedule Tasks
 - [ ] Manage Software, Repositories & Install Software from Source
 - [ ] Verify Integrity and Availability of Resources and Key Processes
