@@ -22,7 +22,7 @@ def log_event(message):
 
 
 # service that we want to check
-service = sys.argv[1] if len(sys.argv) > 1 else "sshd"
+service = sys.argv[1] if len(sys.argv) > 1 else "ssh"
 
 # call the function
 current_status = get_status(service)
