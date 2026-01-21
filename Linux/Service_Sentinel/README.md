@@ -13,7 +13,7 @@ Create a Python script that will use `systemctl` to verify status of a service a
 
 ## The Challenge
 
-Critical services (like a web server) can crash, and manual restarts cause downtime.
+Critical services (like a web server) can crash, and manual restarts cause downtime
 
 ## The Solution
 
