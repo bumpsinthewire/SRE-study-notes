@@ -32,7 +32,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Git & SSL Certificates
 - [x] Scripting, Manage Startup Process and Services
 - [x] Manage Processes and Analyze Log Files
-- [ ] Schedule Tasks
+- [x] Schedule Tasks
 - [ ] Manage Software, Repositories & Install Software from Source
 - [ ] Verify Integrity and Availability of Resources and Key Processes
 - [ ] Kernel Runtime Parameters and SELinux/AppArmor
