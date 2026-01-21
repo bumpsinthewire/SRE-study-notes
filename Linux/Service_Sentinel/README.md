@@ -38,9 +38,9 @@ the output of the `subprocess` command is a *CompletedProcess Object* so you mus
 
 ## Results
 
-*(Outcomes and impact)*
-
-*(Add a screenshot or code block showing the output of the script)*
+bumpsinthewire@lfcslab:~/SRE-study-notes/Linux/Service_Sentinel$ cat sentinel.log
+[2026-01-21 20:28:41] ALERT: nginx is inactive. Attempting restart.
+[2026-01-21 20:28:41] RECOVERY: nginx restart attempted. New status: active
 
 ### Parent Note
 
