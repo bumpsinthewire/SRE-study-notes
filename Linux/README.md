@@ -18,6 +18,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
 - [permissions_and_bits](./permissions_and_bits.md)
 - [repositories_and_software](./repositories_and_software.md)
+- [resources_and_processes](./resources_and_processes.md)
 - [schedule_tasks](./schedule_tasks.md)
 - [search_and_manipulate_file_content](./search_and_manipulate_file_content.md)
 - [ssl_certs](./ssl_certs.md)
