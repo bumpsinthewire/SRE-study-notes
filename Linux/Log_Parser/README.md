@@ -25,15 +25,17 @@ Python's `re` module is much easier to use than trying to search with standard L
 
 ### Reliability Considerations
 
-*(What did you add to make the script "harder to break")*
+Added a `try/except` block in case the log file does not exist
 
 ## Key Learnings
 
-An easier way to use regex
+An easier way to use regex with the `re` module
+built-in `collections.Counter` for handling frequency mapping without manual `if/else` *dict* logic
+`typing` module can be used to specify types for data structures for easier readability and intention 
 
 ## Code Implementation
 
-*(Links to code files and explanations)*
+- [Log Parser](./log_parser.py)
 
 ## Results
 

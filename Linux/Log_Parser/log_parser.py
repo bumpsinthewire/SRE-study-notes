@@ -1,20 +1,22 @@
 import re
+from collections import Counter
 
 
-log_line = "Jan 21 14:00:01 server sshd[123]: Failed password for root from 192.168.1.50 port 54321 ssh2"
-ip_result = re.search(r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}", log_line)
+failed_attempts: Counter = Counter()
 
-if ip_result:
-    ip = ip_result.group()
-    print(f"Found IP: {ip}")
+try:
+    with open("test_auth.log", "r") as f:
+        for line in f:
+            ip_result = re.search(r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}", line)
+            if ip_result:
+                failed_attempts[ip_result.group()] += 1
+except FileNotFoundError:
+    print("Error: The log file 'test_auth.log' was not found.")
+    exit(1)
 
-failed_attempts = {}
+print("--- SSH Attack Report ---")
+print(f"{'IP Address':<18} | {'Attempts'}")
+print("-" * 30)
 
-with open("test_auth.log", "r") as f:
-    for line in f:
-        if ip in failed_attempts:
-            failed_attempts[ip] += 1
-        else:
-            failed_attempts[ip] = 1
-
-print(failed_attempts)
+for ip, count in failed_attempts.most_common(3):
+    print(f"{ip:<18} | {count}")
