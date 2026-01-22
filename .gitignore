@@ -19,3 +19,6 @@ Thumbs.db
 
 # Markdown linting
 .markdownlint.json
+
+# Python type checking
+.mypy_cache
