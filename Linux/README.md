@@ -17,6 +17,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [input-output_redirection](./input-output_redirection.md)
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
 - [permissions_and_bits](./permissions_and_bits.md)
+- [repositories_and_software](./repositories_and_software.md)
 - [schedule_tasks](./schedule_tasks.md)
 - [search_and_manipulate_file_content](./search_and_manipulate_file_content.md)
 - [ssl_certs](./ssl_certs.md)
@@ -34,7 +35,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Scripting, Manage Startup Process and Services
 - [x] Manage Processes and Analyze Log Files
 - [x] Schedule Tasks
-- [ ] Manage Software, Repositories & Install Software from Source
+- [x] Manage Software, Repositories & Install Software from Source
 - [ ] Verify Integrity and Availability of Resources and Key Processes
 - [ ] Kernel Runtime Parameters and SELinux/AppArmor
 - [ ] Manage Containers and VMs
