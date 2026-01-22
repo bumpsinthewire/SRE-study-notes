@@ -39,10 +39,15 @@ built-in `collections.Counter` for handling frequency mapping without manual `if
 
 ## Results
 
-*(Outcomes and impact)*
-
-*(Add a screenshot or code block showing the output of the script)*
+```python3
+❯ python3 log_parser.py
+--- SSH Attack Report ---
+IP Address         | Attempts
+------------------------------
+192.168.1.50       | 2
+10.0.0.5           | 1
+```
 
 ### Parent Note
 
-- [Linux Study Journey](Linux/README.md)
+- [Linux Study Journey](../README.md)
