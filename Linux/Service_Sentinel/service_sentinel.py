@@ -17,7 +17,9 @@ def get_status(service_name):
 # function for logging
 def log_event(message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open("sentinel.log", "a") as f:
+    with open(
+        "/home/bumpsinthewire/SRE-study-notes/Linux/Service_Sentinel/sentinel.log", "a"
+    ) as f:
         f.write(f"[{timestamp}] {message}\n")
 
 
