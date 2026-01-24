@@ -15,12 +15,14 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [grep_and_regex](./grep_and_regex.md)
 - [hard_and_soft_links](./hard_and_soft_links.md)
 - [input-output_redirection](./input-output_redirection.md)
+- [kernel_runtime_parameters](./kernel_runtime_parameters.md)
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
 - [permissions_and_bits](./permissions_and_bits.md)
 - [repositories_and_software](./repositories_and_software.md)
 - [resources_and_processes](./resources_and_processes.md)
 - [schedule_tasks](./schedule_tasks.md)
 - [search_and_manipulate_file_content](./search_and_manipulate_file_content.md)
+- [selinux](./selinux.md)
 - [ssl_certs](./ssl_certs.md)
 - [startup-processes_and_services](./startup-processes_and_services.md)
 - [system_documentation](./system_documentation.md)
@@ -37,7 +39,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Manage Processes and Analyze Log Files
 - [x] Schedule Tasks
 - [x] Manage Software, Repositories & Install Software from Source
-- [ ] Verify Integrity and Availability of Resources and Key Processes
+- [x] Verify Integrity and Availability of Resources and Key Processes
 - [ ] Kernel Runtime Parameters and SELinux/AppArmor
 - [ ] Manage Containers and VMs
 - [ ] Manage User Accounts and Groups
