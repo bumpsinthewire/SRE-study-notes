@@ -10,6 +10,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 ## Study Notes
 
 - [archive_backup_compress](./archive_backup_compress.md)
+- [containers_and_vms](./containers_and_vms.md)
 - [file_search](./file_search.md)
 - [files_and_directories](./files_and_directories.md)
 - [grep_and_regex](./grep_and_regex.md)
@@ -40,8 +41,8 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Schedule Tasks
 - [x] Manage Software, Repositories & Install Software from Source
 - [x] Verify Integrity and Availability of Resources and Key Processes
-- [ ] Kernel Runtime Parameters and SELinux/AppArmor
-- [ ] Manage Containers and VMs
+- [x] Kernel Runtime Parameters and SELinux/AppArmor
+- [x] Manage Containers and VMs
 - [ ] Manage User Accounts and Groups
 - [ ] Manage System-Wide Environment Profiles and Template User Environments
 - [ ] Configure User Resource Limits and User Privileges
