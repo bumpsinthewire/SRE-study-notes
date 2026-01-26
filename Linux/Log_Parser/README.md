@@ -39,7 +39,7 @@ built-in `collections.Counter` for handling frequency mapping without manual `if
 
 ## Results
 
-```python3
+```bash
 ❯ python3 log_parser.py
 --- SSH Attack Report ---
 IP Address         | Attempts

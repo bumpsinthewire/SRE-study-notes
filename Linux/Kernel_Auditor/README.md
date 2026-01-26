@@ -9,37 +9,50 @@ tags: [project, linux]
 
 ## Overview
 
-*(Describe the project and its goals)*
+Create a Python script that uses `sysctl -n [parameter]` to obtain the configured value of specific parameters
+Additionaly validates SELinux mode
 
 ## The Challenge
 
-*(What problem does this solve?)*
+Instead of manually going through and checking a list of parameters, this will check automatically and tell you which ones are not in compliance
 
 ## The Solution
 
-*(Your approach and implementation)*
+A Python script that loops through a dictionary of parameters and their expected values
+    Prints the command to fix any parameters that do not meet the expected setting
+Validates the mode of SELinux
 
 ### Implementation Logic
 
-*(Why did you choose python/bash)*
+Python provided the ability to loop over a dictionary that contains the parameter name as well as the expected value and then verify it
 
 ### Reliability Considerations
 
-*(What did you add to make the script "harder to break")*
+Chose running `sysctl -n [parameter]` to obtain values instead of going down the file path
+    less cleanup/validation needed this way
 
 ## Key Learnings
 
-*(What you learned from this project)*
+reinforced that you **always** have to use `stdout.strip()` on the return object from the `subprocess` output
 
 ## Code Implementation
 
-*(Links to code files and explanations)*
+- [kernel_auditor](./kernel_auditor.py)
 
 ## Results
 
-*(Outcomes and impact)*
+```bash
+bumpsinthewire@lfcslab:~/SRE-study-notes/Linux/Kernel_Auditor$ python3 kernel_auditor.py
+The value for net.ipv4.ip_forward does not match the desired state!
+Please use: 'sysctl -w net.ipv4.ip_forward=0' to fix
+The value for kernel.perf_event_paranoid does not match the desired state!
+Please use: 'sysctl -w kernel.perf_event_paranoid=2' to fix
 
-*(Add a screenshot or code block showing the output of the script)*
+--- SUMMARY ---
+Parameters in compliance: 3/5
+
+WARNING: SELinux is Permissive. Expected Enforcing
+```
 
 ### Parent Note
 
