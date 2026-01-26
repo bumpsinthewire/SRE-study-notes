@@ -15,21 +15,28 @@ def param_value(parameter):
     return value.stdout.strip()
 
 
-def selinux_mode(expected_mode):
+def selinux_mode():
     mode = subprocess.run(["getenforce"], capture_output=True, text=True)
-    current_mode = mode.stdout.strip()
-    return current_mode == expected_mode
+    return mode.stdout.strip()
 
+
+total_params = len(DESIRED_STATE)
+passed_count = 0
 
 for parameter, expected in DESIRED_STATE.items():
-    total_params = len(DESIRED_STATE.keys())
-    count = 0
+    current_val = param_value(parameter)
 
-    if param_value(parameter) != expected:
+    if current_val != expected:
         print(f"The value for {parameter} does not match the desired state!")
         print(f"Please use: 'sysctl -w {parameter}={expected}' to fix")
     else:
-        count += 1
+        passed_count += 1
 
 
-print(f"SUMMARY: Parameters in compliance: {count}")
+print("\n--- SUMMARY ---")
+print(f"Parameters in compliance: {passed_count}/{total_params}")
+
+selinux_value = "Enforcing"
+selinux_current = selinux_mode()
+if selinux_current != selinux_value:
+    print(f"WARNING: SELinux is {selinux_current} (Expected: {selinux_value})")
