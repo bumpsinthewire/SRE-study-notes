@@ -31,5 +31,5 @@ for parameter, expected in DESIRED_STATE.items():
     else:
         count += 1
 
-    print(f"SUMMARY: Parameters in compliance: {count}")
-    print(f"         Parameters not in compliance: {(total_params - count)}")
+
+print(f"SUMMARY: Parameters in compliance: {count}")
