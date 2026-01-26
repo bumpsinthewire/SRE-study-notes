@@ -22,6 +22,14 @@ def selinux_mode(expected_mode):
 
 
 for parameter, expected in DESIRED_STATE.items():
+    total_params = len(DESIRED_STATE.keys())
+    count = 0
+
     if param_value(parameter) != expected:
         print(f"The value for {parameter} does not match the desired state!")
         print(f"Please use: 'sysctl -w {parameter}={expected}' to fix")
+    else:
+        count += 1
+
+    print(f"SUMMARY: Parameters in compliance: {count}")
+    print(f"         Parameters not in compliance: {(total_params - count)}")
