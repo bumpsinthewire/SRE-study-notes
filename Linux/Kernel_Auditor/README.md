@@ -42,7 +42,7 @@ reinforced that you **always** have to use `stdout.strip()` on the return object
 ## Results
 
 ```bash
-bumpsinthewire@lfcslab:~/SRE-study-notes/Linux/Kernel_Auditor$ python3 kernel_auditor.py
+$ python3 kernel_auditor.py
 The value for net.ipv4.ip_forward does not match the desired state!
 Please use: 'sysctl -w net.ipv4.ip_forward=0' to fix
 The value for kernel.perf_event_paranoid does not match the desired state!
