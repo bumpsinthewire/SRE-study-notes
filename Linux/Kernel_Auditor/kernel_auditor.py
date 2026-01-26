@@ -39,4 +39,4 @@ print(f"Parameters in compliance: {passed_count}/{total_params}")
 selinux_value = "Enforcing"
 selinux_current = selinux_mode()
 if selinux_current != selinux_value:
-    print(f"WARNING: SELinux is {selinux_current} (Expected: {selinux_value})")
+    print(f"\nWARNING: SELinux is {selinux_current}. Expected {selinux_value}")
