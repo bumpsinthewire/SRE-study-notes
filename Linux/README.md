@@ -12,6 +12,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 
 - [archive_backup_compress](./archive_backup_compress.md)
 - [containers_and_vms](./containers_and_vms.md)
+- [environment_profiles_and_templates](./environment_profiles_and_templates.md)
 - [file_search](./file_search.md)
 - [files_and_directories](./files_and_directories.md)
 - [grep_and_regex](./grep_and_regex.md)
@@ -21,6 +22,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
 - [permissions_and_bits](./permissions_and_bits.md)
 - [repositories_and_software](./repositories_and_software.md)
+- [resource_limits_and_privileges](./resource_limits_and_privileges.md)
 - [resources_and_processes](./resources_and_processes.md)
 - [schedule_tasks](./schedule_tasks.md)
 - [search_and_manipulate_file_content](./search_and_manipulate_file_content.md)
@@ -45,8 +47,8 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Verify Integrity and Availability of Resources and Key Processes
 - [x] Kernel Runtime Parameters and SELinux/AppArmor
 - [x] Manage Containers and VMs
-- [ ] Manage User Accounts and Groups
-- [ ] Manage System-Wide Environment Profiles and Template User Environments
+- [x] Manage User Accounts and Groups
+- [x] Manage System-Wide Environment Profiles and Template User Environments
 - [ ] Configure User Resource Limits and User Privileges
 - [ ] Configure Networking, Start/Stop/Check Status of Network Services
 - [ ] Packet Filtering
