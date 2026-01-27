@@ -49,7 +49,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Manage Containers and VMs
 - [x] Manage User Accounts and Groups
 - [x] Manage System-Wide Environment Profiles and Template User Environments
-- [ ] Configure User Resource Limits and User Privileges
+- [x] Configure User Resource Limits and User Privileges
 - [ ] Configure Networking, Start/Stop/Check Status of Network Services
 - [ ] Packet Filtering
 - [ ] Configure SSH Servers and Clients
