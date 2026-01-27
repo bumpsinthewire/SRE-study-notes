@@ -11,6 +11,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 ## Study Notes
 
 - [archive_backup_compress](./archive_backup_compress.md)
+- [bridges_and_bonds](./bridges_and_bonds.md)
 - [containers_and_vms](./containers_and_vms.md)
 - [environment_profiles_and_templates](./environment_profiles_and_templates.md)
 - [file_search](./file_search.md)
