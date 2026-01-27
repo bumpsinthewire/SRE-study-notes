@@ -20,6 +20,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [input-output_redirection](./input-output_redirection.md)
 - [kernel_runtime_parameters](./kernel_runtime_parameters.md)
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
+- [networking](./networking.md)
 - [permissions_and_bits](./permissions_and_bits.md)
 - [repositories_and_software](./repositories_and_software.md)
 - [resource_limits_and_privileges](./resource_limits_and_privileges.md)
