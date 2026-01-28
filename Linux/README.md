@@ -35,6 +35,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [ssl_certs](./ssl_certs.md)
 - [startup-processes_and_services](./startup-processes_and_services.md)
 - [system_documentation](./system_documentation.md)
+- [time](./time.md)
 - [user_accounts_and_groups](./user_accounts_and_groups.md)
 
 ## Progress
