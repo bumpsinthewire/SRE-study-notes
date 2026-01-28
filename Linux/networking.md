@@ -18,7 +18,7 @@ Linux has many built-in utilities for doing various things related to networking
     `link` information about interfaces but also lets you manage them
         `ip link set dev [int] up/down` turns up/down an interface
     `address` or `addr` or `a` shows IP information for your interfaces
-        `-c` will *color* the output
+        `-c` will *color* the output (use this option **BEFORE** the second command)
         `ip addr add/del [ip/mask] dev [int]` adds/removes an IP for an interface
 
 `netplan get` will show you the current system network settings
