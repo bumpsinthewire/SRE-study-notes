@@ -22,6 +22,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [kernel_runtime_parameters](./kernel_runtime_parameters.md)
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
 - [networking](./networking.md)
+- [packet_filtering](./packet_filtering.md)
 - [permissions_and_bits](./permissions_and_bits.md)
 - [repositories_and_software](./repositories_and_software.md)
 - [resource_limits_and_privileges](./resource_limits_and_privileges.md)
@@ -52,8 +53,8 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Manage User Accounts and Groups
 - [x] Manage System-Wide Environment Profiles and Template User Environments
 - [x] Configure User Resource Limits and User Privileges
-- [ ] Configure Networking, Start/Stop/Check Status of Network Services
-- [ ] Packet Filtering
+- [x] Configure Networking, Start/Stop/Check Status of Network Services
+- [x] Packet Filtering
 - [ ] Configure SSH Servers and Clients
 - [ ] Manage Partitions and Swap Space
 - [ ] Create Filesystems and Mount Them at Boot
