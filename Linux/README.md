@@ -19,6 +19,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [grep_and_regex](./grep_and_regex.md)
 - [hard_and_soft_links](./hard_and_soft_links.md)
 - [input-output_redirection](./input-output_redirection.md)
+- [iptables](./iptables.md)
 - [kernel_runtime_parameters](./kernel_runtime_parameters.md)
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
 - [networking](./networking.md)
