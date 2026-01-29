@@ -1,6 +1,7 @@
 import subprocess
 
 
+# dictionary of desired parameter settings
 DESIRED_STATE = {
     "net.ipv4.ip_forward": "0",
     "kernel.kptr_restrict": "1",
@@ -11,11 +12,17 @@ DESIRED_STATE = {
 
 
 def param_value(parameter):
+    """
+    Returns the configured setting value for a parameter.
+    """
     value = subprocess.run(["sysctl", "-n", parameter], capture_output=True, text=True)
     return value.stdout.strip()
 
 
 def selinux_mode():
+    """
+    Returns status of SELinux.
+    """
     mode = subprocess.run(["getenforce"], capture_output=True, text=True)
     return mode.stdout.strip()
 

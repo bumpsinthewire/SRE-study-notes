@@ -2,6 +2,10 @@ import subprocess
 
 
 def get_listening_ports():
+    """
+    Obtains a list of the ports listening on the system.
+    Cleans up the output and returns a set of ports.
+    """
     ports_list = subprocess.run(["ss", "-tunl"], capture_output=True, text=True)
     lines = ports_list.stdout.strip().split("\n")
 
@@ -17,6 +21,9 @@ def get_listening_ports():
 
 
 def check_ssh_config():
+    """
+    Audits the 'PermitRootLogin' line in the sshd config.
+    """
     try:
         with open("/etc/ssh/sshd_config", "r") as f:
             for line in f:

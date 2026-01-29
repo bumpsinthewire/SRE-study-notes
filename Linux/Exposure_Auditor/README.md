@@ -25,21 +25,34 @@ Parsing the output of `ss` can be a bit messy. Built-in Python methods like `.sp
 
 ### Reliability Considerations
 
-*(What did you add to make the script "harder to break")*
+Added a `try` `except` block when checking the `ssh` config
 
 ## Key Learnings
 
-*(What you learned from this project)*
+Data parsing: using `.split()` to handle odd output from `ss`
+String manipulation: `rsplit(':', 1)` to isolate port numbers
+Configuration checking: adding logic to ignore commented-out lines
 
 ## Code Implementation
 
-*(Links to code files and explanations)*
+- [exposure_auditor](./exposure_auditor.py)
 
 ## Results
 
-*(Outcomes and impact)*
+```bash
+$ python3 exposure_auditor.py
+--- NETWORK EXPOSURE AUDIT ---
 
-*(Add a screenshot or code block showing the output of the script)*
+[+] Checking Listening Ports...
+[!] ALERT: UNRECOGNIZED PORT EXPOSED: 546
+[!] ALERT: UNRECOGNIZED PORT EXPOSED: 68
+[!] ALERT: UNRECOGNIZED PORT EXPOSED: 53
+[!] ALERT: UNRECOGNIZED PORT EXPOSED: 67
+[!] ALERT: UNRECOGNIZED PORT EXPOSED: 8080
+
+[+] Checking SSH Configuration...
+[-] NOTICE: SSH Policy is set to DEFAULT.
+```
 
 ### Parent Note
 
