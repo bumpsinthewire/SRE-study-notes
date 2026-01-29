@@ -32,6 +32,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [schedule_tasks](./schedule_tasks.md)
 - [search_and_manipulate_file_content](./search_and_manipulate_file_content.md)
 - [selinux](./selinux.md)
+- [ssh](./ssh.md)
 - [ssl_certs](./ssl_certs.md)
 - [startup-processes_and_services](./startup-processes_and_services.md)
 - [system_documentation](./system_documentation.md)
