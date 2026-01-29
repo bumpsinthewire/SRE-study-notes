@@ -26,6 +26,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
 - [networking](./networking.md)
 - [packet_filtering](./packet_filtering.md)
+- [partitions_and_swap_space](./partitions_and_swap_space.md)
 - [permissions_and_bits](./permissions_and_bits.md)
 - [repositories_and_software](./repositories_and_software.md)
 - [resource_limits_and_privileges](./resource_limits_and_privileges.md)
