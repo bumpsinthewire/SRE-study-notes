@@ -56,6 +56,4 @@ if __name__ == "__main__":
     elif ssh_audit == "INSECURE":
         print(" [!] ALERT: SSH Policy: PermitRootLogin is ENABLED!")
     else:
-        print(f" [-] NOTICE: SSH Policy is set to {ssh_audit}.")
-
-    print(ssh_audit)
+        print(f"[-] NOTICE: SSH Policy is set to {ssh_audit}.")
