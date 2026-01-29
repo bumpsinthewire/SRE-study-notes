@@ -59,7 +59,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Configure User Resource Limits and User Privileges
 - [x] Configure Networking, Start/Stop/Check Status of Network Services
 - [x] Packet Filtering
-- [ ] Configure SSH Servers and Clients
+- [x] Configure SSH Servers and Clients
 - [ ] Manage Partitions and Swap Space
 - [ ] Create Filesystems and Mount Them at Boot
 - [ ] Filesystem Features and Mount Options
