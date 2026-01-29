@@ -17,6 +17,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [environment_profiles_and_templates](./environment_profiles_and_templates.md)
 - [file_search](./file_search.md)
 - [files_and_directories](./files_and_directories.md)
+- [filesystems](./filesystems.md)
 - [grep_and_regex](./grep_and_regex.md)
 - [hard_and_soft_links](./hard_and_soft_links.md)
 - [input-output_redirection](./input-output_redirection.md)

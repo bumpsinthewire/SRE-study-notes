@@ -30,14 +30,6 @@ Swap space is a partition that you can temporarily use as RAM
 you can also use the `dd` utility to make a partition into a swap space
     `dd if=/dev/zero of=/swap bs=1M count=128 status=progress`
 
-## Resources
-
-*(Links to documentation, tutorials, etc.)*
-
-## Next Steps
-
-*(What to explore next)*
-
 ### Parent Note
 
 - [Linux Study Journey](./README.md)
