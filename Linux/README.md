@@ -24,6 +24,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [iptables](./iptables.md)
 - [kernel_runtime_parameters](./kernel_runtime_parameters.md)
 - [load_balancers](./load_balancers.md)
+- [lvm_and_nbd](./lvm_and_nbd.md)
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
 - [networking](./networking.md)
 - [nfs](./nfs.md)
@@ -64,10 +65,10 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Configure Networking, Start/Stop/Check Status of Network Services
 - [x] Packet Filtering
 - [x] Configure SSH Servers and Clients
-- [ ] Manage Partitions and Swap Space
-- [ ] Create Filesystems and Mount Them at Boot
-- [ ] Filesystem Features and Mount Options
-- [ ] Remote File Systems: NFS
+- [x] Manage Partitions and Swap Space
+- [x] Create Filesystems and Mount Them at Boot
+- [x] Filesystem Features and Mount Options
+- [x] Remote File Systems: NFS
 - [ ] Manage LVM
 - [ ] Advanced Permissions
 
