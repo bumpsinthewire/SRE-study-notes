@@ -26,6 +26,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [load_balancers](./load_balancers.md)
 - [manage_processes_and_logging](./manage_processes_and_logging.md)
 - [networking](./networking.md)
+- [nfs](./nfs.md)
 - [packet_filtering](./packet_filtering.md)
 - [partitions_and_swap_space](./partitions_and_swap_space.md)
 - [permissions_and_bits](./permissions_and_bits.md)
