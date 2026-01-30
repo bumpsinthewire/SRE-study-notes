@@ -11,6 +11,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 
 ## Study Notes
 
+- [advanced_permissions](./advanced_permissions.md)
 - [archive_backup_compress](./archive_backup_compress.md)
 - [bridges_and_bonds](./bridges_and_bonds.md)
 - [containers_and_vms](./containers_and_vms.md)
@@ -40,6 +41,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [ssh](./ssh.md)
 - [ssl_certs](./ssl_certs.md)
 - [startup-processes_and_services](./startup-processes_and_services.md)
+- [storage_performance](./storage_performance.md)
 - [system_documentation](./system_documentation.md)
 - [time](./time.md)
 - [user_accounts_and_groups](./user_accounts_and_groups.md)
@@ -69,8 +71,8 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [x] Create Filesystems and Mount Them at Boot
 - [x] Filesystem Features and Mount Options
 - [x] Remote File Systems: NFS
-- [ ] Manage LVM
-- [ ] Advanced Permissions
+- [x] Manage LVM
+- [x] Advanced Permissions
 
 ## Goals
 
