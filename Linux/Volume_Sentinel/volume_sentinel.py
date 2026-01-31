@@ -21,7 +21,11 @@ def get_storage_stats():
         text=True,
     )
 
-    return volume_groups, logical_volumes
+    vgs = volume_groups.stdout.strip()
+    lvs = logical_volumes.stdout.strip()
+
+    return vgs, lvs
 
 
-print(get_storage_stats())
+stats = get_storage_stats()
+print(stats)
