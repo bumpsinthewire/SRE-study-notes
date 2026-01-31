@@ -3,37 +3,63 @@ import shutil
 
 
 def get_storage_stats():
-    volume_groups = subprocess.run(
-        ["sudo", "vgs", "--noheadings", "--separator", ",", "-o", "vg_name,vg_free"],
-        capture_output=True,
-        text=True,
+    # Gather data
+    vg_raw = (
+        subprocess.run(
+            [
+                "sudo",
+                "vgs",
+                "--noheadings",
+                "--separator",
+                ",",
+                "-o",
+                "vg_name,vg_free",
+            ],
+            capture_output=True,
+            text=True,
+        )
+        .stdout.strip()
+        .split(",")
     )
-    logical_volumes = subprocess.run(
-        [
-            "sudo",
-            "lvs",
-            "--noheadings",
-            "--separator",
-            ",",
-            "-o",
-            "lv_path,vg_name",
-        ],
-        capture_output=True,
-        text=True,
+
+    lv_raw = (
+        subprocess.run(
+            [
+                "sudo",
+                "lvs",
+                "--noheadings",
+                "--separator",
+                ",",
+                "-o",
+                "lv_path,vg_name",
+            ],
+            capture_output=True,
+            text=True,
+        )
+        .stdout.strip()
+        .split(",")
     )
 
-    vgs = volume_groups.stdout.strip().split(",")
-    lvs = logical_volumes.stdout.strip().split(",")
+    # Separate VG data
+    vg_name = vg_raw[0].strip()
+    vg_free = vg_raw[1].replace("<", "").replace("g", "").strip()
 
-    vg_dict = {vgs[0]: vgs[1].replace("<", "")}
-    lv_path = lvs[0]
+    # Get the path for the LV
+    lv_path = lv_raw[0].strip()
 
-    usage = shutil.disk_usage(lv_path)
-    lv_dict = {lvs[1]: usage}
+    # Calculate usage
+    total, used, free = shutil.disk_usage("/")
+    percent_used = (used / total) * 100
 
-    return vg_dict, lv_dict
+    # output logic
+    if percent_used > 80:
+        print(f"\n[!] ALERT: Logical volume {lv_path} is at {percent_used:.2f}%!")
+        print(f"    Volume Group '{vg_name}' has {vg_free}GB free.")
+        print(f"    ACTION: Run 'sudo lvextend -r -L +5G {lv_path}' to expand.")
+    else:
+        print(f"\n[x] Storage Health: {lv_path} is at {percent_used:.2f}% capacity.")
+
+    return vg_free, percent_used
 
 
-vg_stats, lv_stats = get_storage_stats()
-print(vg_stats)
-print(lv_stats)
+vg_free_space, current_usage = get_storage_stats()
