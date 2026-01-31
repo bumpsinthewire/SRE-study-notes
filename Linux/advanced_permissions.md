@@ -35,10 +35,6 @@ if you see a "+" sign at the end of the permissions string for a file, that mean
 
 `man chattr` *man* page for the `chattr` command
 
-## Next Steps
-
-*(What to explore next)*
-
 ### Parent Note
 
 - [Linux Study Journey](./README.md)

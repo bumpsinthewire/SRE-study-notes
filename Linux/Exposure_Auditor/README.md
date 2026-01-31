@@ -29,7 +29,7 @@ Added a `try` `except` block when checking the `ssh` config
 
 ## Key Learnings
 
-Data parsing: using `.split()` to handle odd output from `ss`
+Data parsing: using `.split()` to handle odd output from `ss`\n
 String manipulation: `rsplit(':', 1)` to isolate port numbers
 Configuration checking: adding logic to ignore commented-out lines
 
