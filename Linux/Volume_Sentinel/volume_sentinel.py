@@ -27,7 +27,7 @@ def get_storage_stats():
     vg_stats = vgs.strip(",")
     vg_stat = {}
 
-    for vg, size in enumerate(vg_stats):
+    for vg, size in vg_stats:
         vg_stat[vg] = size
 
     return vg_stat, lvs
