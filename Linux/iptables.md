@@ -43,10 +43,6 @@ uncomment both `net.ipv4.ip_forward=1` and `net.ipv6.conf.all.forwarding=1`
 run `sudo sysctl --system` to reload and make sure forwarding is enabled  
 install `iptables-persistent` package to be able to save `iptables` rules permanently
 
-## Resources
-
-*(Links to documentation, tutorials, etc.)*
-
 ## Next Steps
 
 `nftables` is becoming more and more the modern standard for managing filtering/firewalling
