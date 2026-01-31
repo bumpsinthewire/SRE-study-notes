@@ -34,7 +34,7 @@ Realizing you can continue to use methods on the same variable
 
 ## Code Implementation
 
-- [Volume Sentinel](./Volume_Sentinel/volume_sentinel.py)
+- [Volume Sentinel](./volume_sentinel.py)
 
 ## Results
 
