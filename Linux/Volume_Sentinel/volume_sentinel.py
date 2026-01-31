@@ -25,9 +25,7 @@ def get_storage_stats():
     vgs = volume_groups.stdout.strip().split(",")
     lvs = logical_volumes.stdout.strip().split(",")
 
-    vg_dict = {"vgs[0]": "vgs[1]"}
-
-    return vg_dict, lvs
+    return vgs, lvs
 
 
 stats = get_storage_stats()
