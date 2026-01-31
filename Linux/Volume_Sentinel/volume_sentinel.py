@@ -53,11 +53,11 @@ def get_storage_stats():
 
     # output logic
     if percent_used > 80:
-        print(f"\n[!] ALERT: Logical volume {lv_path} is at {percent_used:.2f}%!")
-        print(f"    Volume Group '{vg_name}' has {vg_free}GB free.")
-        print(f"    ACTION: Run 'sudo lvextend -r -L +5G {lv_path}' to expand.")
+        print(f"\nALERT: Logical volume {lv_path} is at {percent_used:.2f}%!")
+        print(f"\nVolume Group '{vg_name}' has {vg_free}GB free.")
+        print(f"\nACTION: Run 'sudo lvextend -r -L +5G {lv_path}' to expand.")
     else:
-        print(f"\n[x] Storage Health: {lv_path} is at {percent_used:.2f}% capacity.")
+        print(f"\nStorage Health: {lv_path} is at {percent_used:.2f}%.")
 
     return vg_free, percent_used
 
