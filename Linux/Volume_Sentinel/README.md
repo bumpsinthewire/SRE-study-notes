@@ -9,37 +9,40 @@ tags: [project, linux]
 
 ## Overview
 
-*(Describe the project and its goals)*
+Python script that checks LVs on your system and resizes them if they are running out of space
 
 ## The Challenge
 
-*(What problem does this solve?)*
+There are a lot of different utilities and commands for verifying the size of LVs and VGs
 
 ## The Solution
 
-*(Your approach and implementation)*
+This script cleans up all of the output and adds some logic that intelligently resizes based on defined criteria
 
 ### Implementation Logic
 
-*(Why did you choose python/bash)*
+Being able to use the `subprocess` and `shutil` modules make this a lot easier than cleaning and parsing `bash` output
 
 ### Reliability Considerations
 
-*(What did you add to make the script "harder to break")*
+Replacing the "<" and "g" in the output so that it can be read properly
 
 ## Key Learnings
 
-*(What you learned from this project)*
+First time using the `shutil` module. It is very straightforward compared to others I have been using
+Realizing you can continue to use methods on the same variable
 
 ## Code Implementation
 
-*(Links to code files and explanations)*
+- [Volume Sentinel](./Volume_Sentinel/volume_sentinel.py)
 
 ## Results
 
-*(Outcomes and impact)*
+```python3
+$ python3 volume_sentinel.py
 
-*(Add a screenshot or code block showing the output of the script)*
+Storage Health: /dev/ubuntu-vg/ubuntu-lv is at 20.88%.
+```
 
 ### Parent Note
 - [linux Study Journey](../README.md)

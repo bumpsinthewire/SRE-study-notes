@@ -8,6 +8,7 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - [Log Parser](./Log_Parser/README.md) - Python automation for parsing/auditing logs
 - [Kernel Auditor](./Kernel_Auditor/README.md) - Python automation to validate kernel parameters and SELinux mode
 - [Service Sentinel](./Service_Sentinel/README.md) - Python automation for restarting crashed services
+- [Volume Sentinel](./Volume_Sentinel/README.md) - Python automation for resizing LVs when they start becoming too large
 
 ## Study Notes
 
