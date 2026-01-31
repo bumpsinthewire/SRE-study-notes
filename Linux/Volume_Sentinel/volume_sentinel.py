@@ -3,7 +3,7 @@ import subprocess
 
 def get_storage_stats():
     volume_groups = subprocess.run(
-        ["vgs", "--noheadings", "--separator", "','", "-o", "vg_name,vg_free"],
+        ["vgs", "--noheadings", "--separator", ",", "-o", "vg_name,vg_free"],
         capture_output=True,
         text=True,
     )
@@ -12,7 +12,7 @@ def get_storage_stats():
             "lvs",
             "--noheadings",
             "--separator",
-            "','",
+            ",",
             "-o",
             "lv_name,vg_name,data_percent",
         ],
