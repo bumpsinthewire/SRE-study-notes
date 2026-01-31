@@ -28,14 +28,6 @@ Just like CPU and RAM, Linux has utilities for monitoring storage performance
 `sudo apt install systat` contains system statistic utilities  
 `iostat` and `pidstat` are the 2 that we are looking at here
 
-## Resources
-
-*(Links to documentation, tutorials, etc.)*
-
-## Next Steps
-
-*(What to explore next)*
-
 ### Parent Note
 
 - [Linux Study Journey](./README.md)
