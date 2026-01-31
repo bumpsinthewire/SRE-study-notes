@@ -1,4 +1,5 @@
 import subprocess
+import shutil
 
 
 def get_storage_stats():
@@ -21,8 +22,8 @@ def get_storage_stats():
         text=True,
     )
 
-    vgs = volume_groups.stdout.strip()
-    lvs = logical_volumes.stdout.strip()
+    vgs = volume_groups.stdout.strip().split(",")
+    lvs = logical_volumes.stdout.strip().split(",")
 
     return vgs, lvs
 
