@@ -34,5 +34,6 @@ def get_storage_stats():
     return vg_dict, lv_dict
 
 
-stats = get_storage_stats()
-print(stats)
+vg_stats, lv_stats = get_storage_stats()
+print(vg_stats)
+print(lv_stats)
