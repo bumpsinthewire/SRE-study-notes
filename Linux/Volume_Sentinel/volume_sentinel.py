@@ -21,10 +21,16 @@ def get_storage_stats():
         text=True,
     )
 
-    vgs = volume_groups.stdout.strip().strip(",")
-    lvs = logical_volumes.stdout.strip().strip(",")
+    vgs = volume_groups.stdout.strip()
+    lvs = logical_volumes.stdout.strip()
 
-    return vgs, lvs
+    vg_stats = vgs.strip(",")
+    vg_stat = {}
+
+    for vg, size in enumerate(vg_stats):
+        vg_stat[vg] = size
+
+    return vg_stat, lvs
 
 
 stats = get_storage_stats()
