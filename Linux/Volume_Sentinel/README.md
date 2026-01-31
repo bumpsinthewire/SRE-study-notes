@@ -38,10 +38,22 @@ Realizing you can continue to use methods on the same variable
 
 ## Results
 
+When trigger set to 80% capacity:
 ```python3
 $ python3 volume_sentinel.py
 
 Storage Health: /dev/ubuntu-vg/ubuntu-lv is at 20.88%.
+```
+
+When trigger set to 10% capacity:
+```python3
+$ python3 volume_sentinel.py
+
+ALERT: Logical volume /dev/ubuntu-vg/ubuntu-lv is at 20.88%!
+
+Volume Group 'ubuntu-vg' has 363.76GB free.
+
+ACTION: Run 'sudo lvextend -r -L +5G /dev/ubuntu-vg/ubuntu-lv' to expand.
 ```
 
 ### Parent Note
