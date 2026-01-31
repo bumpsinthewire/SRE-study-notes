@@ -3,12 +3,13 @@ import subprocess
 
 def get_storage_stats():
     volume_groups = subprocess.run(
-        ["vgs", "--noheadings", "--separator", ",", "-o", "vg_name,vg_free"],
+        ["sudo", "vgs", "--noheadings", "--separator", ",", "-o", "vg_name,vg_free"],
         capture_output=True,
         text=True,
     )
     logical_volumes = subprocess.run(
         [
+            "sudo",
             "lvs",
             "--noheadings",
             "--separator",
