@@ -9,14 +9,14 @@ tags: [study, linux]
 
 ## Key Concepts
 
-Reverse proxies and load balancers are similar but different
-A reverse proxy essentially takes a request and forwards it to a server on your behalf
-A load balancer adds intelligence (load balancing) to this process and chooses a server from a pool of servers
+Reverse proxies and load balancers are similar but different  
+A reverse proxy essentially takes a request and forwards it to a server on your behalf  
+A load balancer adds intelligence (load balancing) to this process and chooses a server from a pool of servers  
 `nginx` is one of the most well known proxies in the world and can be used for both a reverse proxy and a load balancer
 
 ## Commands & Examples
 
-`sudo apt install nginx` to install `nginx`
+`sudo apt install nginx` to install `nginx`  
 add a file to `/etc/nginx/sites-available/` to create the config you desire (eg. reverse proxy or load balancer)
 
 reverse proxy:
@@ -46,13 +46,13 @@ upstream mywebservers {
 ```
 for a load balancer, you do the same config as reverse proxy, but you must define the pool of webservers first
 
-`nginx -t` tests your `nginx` configuration files
-    use `systemctl reload nginx.service` to reload `nginx` and apply your configuration files
+`nginx -t` tests your `nginx` configuration files  
+use `systemctl reload nginx.service` to reload `nginx` and apply your configuration files
 
 ## Questions & Notes
 
-the main `nginx` config is located at `/etc/nginx/nginx.conf` and it points to other locations to find your config files
-it is best practice to *soft* link `/etc/nginx/sites-available/` to `/etc/nginx/sites-enabled/`
+the main `nginx` config is located at `/etc/nginx/nginx.conf` and it points to other locations to find your config files  
+it is best practice to *soft* link `/etc/nginx/sites-available/` to `/etc/nginx/sites-enabled/`  
 as well as removing `/etc/nginx/sites-enabled/default`
 
 ## Resources

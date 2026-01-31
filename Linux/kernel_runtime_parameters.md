@@ -13,16 +13,16 @@ Runtime parameters are basically settings for how the kernel does its job intern
 
 ## Commands & Examples
 
-`sysctl -a` will show you all of the parameters currently in use (add `sudo` to make sure you see all of them)
-`sysctl -w [parameter=value]` will set a parameter (non-persistent)
-`sysctl [parameter]` will show you the current settings for a parameter
+`sysctl -a` will show you all of the parameters currently in use (add `sudo` to make sure you see all of them)  
+`sysctl -w [parameter=value]` will set a parameter (non-persistent)  
+`sysctl [parameter]` will show you the current settings for a parameter  
 `sysctl -p [parameter setting file]` will enforce the file on your current instance
 
 ## Questions & Notes
 
-*0* means False and *1* means True
-parameter setting files will be in `/etc/sysctl.d/`
-    you can add your own files here as well and the parameters will be persistent
+*0* means False and *1* means True  
+parameter setting files will be in `/etc/sysctl.d/`  
+you can add your own files here as well and the parameters will be persistent
 
 ### Parent Note
 
