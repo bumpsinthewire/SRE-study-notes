@@ -9,7 +9,7 @@ tags: [project, linux]
 
 ## Overview
 
-Create a Python script that uses `sysctl -n [parameter]` to obtain the configured value of specific parameters
+Create a Python script that uses `sysctl -n [parameter]` to obtain the configured value of specific parameters    
 Additionaly validates SELinux mode
 
 ## The Challenge
@@ -18,8 +18,8 @@ Instead of manually going through and checking a list of parameters, this will c
 
 ## The Solution
 
-A Python script that loops through a dictionary of parameters and their expected values
-    Prints the command to fix any parameters that do not meet the expected setting
+A Python script that loops through a dictionary of parameters and their expected values  
+Prints the command to fix any parameters that do not meet the expected setting  
 Validates the mode of SELinux
 
 ### Implementation Logic
@@ -28,8 +28,8 @@ Python provided the ability to loop over a dictionary that contains the paramete
 
 ### Reliability Considerations
 
-Chose running `sysctl -n [parameter]` to obtain values instead of going down the file path
-    less cleanup/validation needed this way
+Chose running `sysctl -n [parameter]` to obtain values instead of going down the file path  
+less cleanup/validation needed this way
 
 ## Key Learnings
 

@@ -29,7 +29,7 @@ Replacing the "<" and "g" in the output so that it can be read properly
 
 ## Key Learnings
 
-First time using the `shutil` module. It is very straightforward compared to others I have been using
+First time using the `shutil` module. It is very straightforward compared to others I have been using  
 Realizing you can continue to use methods on the same variable
 
 ## Code Implementation

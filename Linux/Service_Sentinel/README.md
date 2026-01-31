@@ -29,8 +29,8 @@ Logging to pinpoint any issues and error handling for input validation
 
 ## Key Learnings
 
-the `subprocess` module expects a *list* of arguments. you can use `shell=True` to bypass this in the `subprocess.run()` command
-    security best practices recommend using a *list* though to prevent injection vulnerabilities
+the `subprocess` module expects a *list* of arguments. you can use `shell=True` to bypass this in the `subprocess.run()` command  
+security best practices recommend using a *list* though to prevent injection vulnerabilities  
 the output of the `subprocess` command is a *CompletedProcess Object* so you must use `stdout` to use the `strip` function on it
 
 ## Code Implementation
