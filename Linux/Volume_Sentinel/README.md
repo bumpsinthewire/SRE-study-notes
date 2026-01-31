@@ -57,4 +57,5 @@ ACTION: Run 'sudo lvextend -r -L +5G /dev/ubuntu-vg/ubuntu-lv' to expand.
 ```
 
 ### Parent Note
+
 - [Linux Study Journey](../README.md)

@@ -14,17 +14,17 @@ Access Control Lists (ACLs) can be used to get really granular with file permiss
 ## Commands & Examples
 
 `setfacl` lets you work with file ACLs  
-    `-m` modify the current ACL on a file (`-m user:alex:rw [file]`)  
-    `-x` remove an ACL from a file  
-    `-b` remove ALL ACLs  
-    `-R` apply what you are doing *recursively*  
+`-m` modify the current ACL on a file (`-m user:alex:rw [file]`)  
+`-x` remove an ACL from a file  
+`-b` remove ALL ACLs  
+`-R` apply what you are doing *recursively*  
 
 `getfacl [filename]` shows the ACL on a file
 
 `chattr [filename]` lets you change attributes on a file  
-    use "+" and "-" to add/remove  
-    "a" for "append"  
-    "i" for "immutable"  
+use "+" and "-" to add/remove  
+"a" for "append"  
+"i" for "immutable"  
 
 `lsattr [filename]` will show you the configured attributes for a file/directory
 
