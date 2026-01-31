@@ -35,7 +35,7 @@ Configuration checking: adding logic to ignore commented-out lines
 
 ## Code Implementation
 
-- [exposure_auditor](./exposure_auditor.py)
+- [Exposure Auditor](./exposure_auditor.py)
 
 ## Results
 

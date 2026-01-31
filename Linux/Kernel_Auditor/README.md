@@ -37,7 +37,7 @@ reinforced that you **always** have to use `stdout.strip()` on the return object
 
 ## Code Implementation
 
-- [kernel_auditor](./kernel_auditor.py)
+- [Kernel Auditor](./kernel_auditor.py)
 
 ## Results
 
