@@ -26,8 +26,12 @@ def get_storage_stats():
     lvs = logical_volumes.stdout.strip().split(",")
 
     vg_dict = {vgs[0]: vgs[1].replace("<", "")}
+    lv_path = lvs[0]
 
-    return vg_dict, lvs
+    usage = shutil.disk_usage(lv_path)
+    lv_dict = {lvs[1]: usage}
+
+    return vg_dict, lv_dict
 
 
 stats = get_storage_stats()
