@@ -15,7 +15,7 @@ def get_storage_stats():
             "--separator",
             ",",
             "-o",
-            "lv_name,vg_name,data_percent",
+            "lv_path,vg_name",
         ],
         capture_output=True,
         text=True,
@@ -24,13 +24,7 @@ def get_storage_stats():
     vgs = volume_groups.stdout.strip()
     lvs = logical_volumes.stdout.strip()
 
-    vg_stats = vgs.strip(",")
-    vg_stat = {}
-
-    for vg, size in vg_stats:
-        vg_stat[vg] = size
-
-    return vg_stat, lvs
+    return vgs, lvs
 
 
 stats = get_storage_stats()
