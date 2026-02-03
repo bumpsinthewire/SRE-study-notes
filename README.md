@@ -1,19 +1,36 @@
-# SRE Study Notes
+# SRE Study Notes: Infrastructure Reliability & Automation
 
-My comprehensive journey through Site Reliability Engineering concepts, tools, and projects.
+## Site Reliability Engineering | Systems Automation | Infrastructure-as-Code
 
-This vault contains study notes, projects, and documentation organized by topic. Each major area has its own folder with a landing page (README) that provides an overview and links to detailed notes and projects.
+This repository documents the automation frameworkds, system internals, and reliability patterns I employ to manage high-availability infrastructure.  
+With a decade of experience in enterprise networking, my focus is on bridging the gap between physical connectivity and software-defined reliability.
+
+## 🛠️ Core Competencies
+
+- Reliability Engineering: Proactive monitoring, incident response, and post-mortem analysis.
+- Network Automation: Scaling complex network topologies through Python and IaC
+- Systems Architecture: Deep-dive Linux internals, kernel tuning, and distributed systems.
+
+## 🏗️ Technical Roadmap
+
+This vault contains study notes, projects, and documentation organized by topic.  
+Each major area has its own folder with a landing page (README) that provides an overview and links to detailed notes and projects.
+
+| Domain | Focus | Key Deliverable |
+| ------ | ----- | --------------- |
+| **Linux Systems** | Kernel, LVM, & Permissions | **LFCS Certification** |
+| **Cloud & IaC** | Terraform & AWS Architecture | **Zero-Trust VPC Factory** |
+| **Orchestration** | Docker & Kubernetes | **High-Availability Clusters** |
+| **Observability** | Prometheus, Grafana, & SLIs | **The 'Golden Signals' Dashboard** |
 
 ## Study Areas
 
 - [Linux](./Linux/README.md) - Operating system fundamentals and system administration
 - [IaC](./IaC/README.md) - Infrastructure as Code (planned)
+- [Cloud](./Cloud/README.md) - Cloud Infrastructure (planned)
 - [Docker](./Docker/README.md) - Containerization and orchestration (planned)
 - [Kubernetes](./Kubernetes/README.md) - Container orchestration (planned)
-- [Networking](./Networking/README.md) - Network fundamentals (planned)
 - [Monitoring](./Monitoring/README.md) - Observability and alerting (planned)
-- [Cloud](./Cloud/README.md) - Multicloud Infrastructure (planned)
-- [AI](./AI/README.md) - AI for SREs (planned)
 
 ## Projects
 
@@ -26,4 +43,4 @@ Each study area follows this structure:
 - **Project folders**: Individual projects with their own README (blog-style documentation)
 - **Study notes**: Detailed technical notes from learning sessions
 
-All content is version controlled and synced across my devices via iCloud and Git.
+All content is version controlled and synced across my devices via iCloud, Git, and Obsidian. All notes are written in markdown.
