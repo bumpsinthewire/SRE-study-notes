@@ -19,8 +19,8 @@ Each major area has its own folder with a landing page (README) that provides an
 | Domain | Focus | Key Deliverable |
 | ------ | ----- | --------------- |
 | **Linux Systems** | Kernel, LVM, & Permissions | **LFCS Certification** |
-| **Cloud & IaC** | Terraform & AWS Architecture | **Zero-Trust VPC Factory** |
-| **Orchestration** | Docker & Kubernetes | **High-Availability Clusters** |
+| **Cloud & IaC** | Terraform & AWS Architecture | **Zero-Trust VPC Factory**, **Terraform Associate** |
+| **Orchestration** | Docker & Kubernetes | **High-Availability Clusters**, **CKA** |
 | **Observability** | Prometheus, Grafana, & SLIs | **The 'Golden Signals' Dashboard** |
 
 ## Study Areas
@@ -28,7 +28,7 @@ Each major area has its own folder with a landing page (README) that provides an
 - [Linux](./Linux/README.md) - Operating system fundamentals and system administration
 - [IaC](./IaC/README.md) - Infrastructure as Code
 - [Cloud](./Cloud/README.md) - Cloud Infrastructure (planned)
-- [Docker_and_K8s](./Docker_and_K8s/README.md)
+- [Docker_and_K8s](./Docker_and_K8s/README.md) - Containerization and Orchestration (planned)
 - [Monitoring](./Monitoring/README.md) - Observability and alerting (planned)
 
 ## Projects
