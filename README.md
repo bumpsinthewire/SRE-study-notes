@@ -2,7 +2,7 @@
 
 ## Site Reliability Engineering | Systems Automation | Infrastructure-as-Code
 
-This repository documents the automation frameworkds, system internals, and reliability patterns I employ to manage high-availability infrastructure.  
+This repository documents the automation frameworks, system internals, and reliability patterns I employ to manage high-availability infrastructure.  
 With a decade of experience in enterprise networking, my focus is on bridging the gap between physical connectivity and software-defined reliability.
 
 ## 🛠️ Core Competencies
@@ -26,7 +26,7 @@ Each major area has its own folder with a landing page (README) that provides an
 ## Study Areas
 
 - [Linux](./Linux/README.md) - Operating system fundamentals and system administration
-- [IaC](./IaC/README.md) - Infrastructure as Code (planned)
+- [IaC](./IaC/README.md) - Infrastructure as Code
 - [Cloud](./Cloud/README.md) - Cloud Infrastructure (planned)
 - [Docker_and_K8s](./Docker_and_K8s/README.md)
 - [Monitoring](./Monitoring/README.md) - Observability and alerting (planned)
