@@ -19,7 +19,7 @@ Each major area has its own folder with a landing page (README) that provides an
 | Domain | Focus | Key Deliverable |
 | ------ | ----- | --------------- |
 | **Linux Systems** | Kernel, LVM, & Permissions | **LFCS Certification** |
-| **Cloud & IaC** | Terraform & AWS Architecture | **Zero-Trust VPC Factory**, **Terraform Associate** |
+| **Cloud & IaC** | Terraform & AWS Architecture | **Zero-Trust VPC Factory**, **Terraform Associate**, **AWS SAA** |
 | **Orchestration** | Docker & Kubernetes | **High-Availability Clusters**, **CKA** |
 | **Observability** | Prometheus, Grafana, & SLIs | **The 'Golden Signals' Dashboard** |
 
