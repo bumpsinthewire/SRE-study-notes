@@ -33,13 +33,13 @@ Each major area has its own folder with a landing page (README) that provides an
 
 ## Projects
 
-- [Projects](./Projects/README.md) - Overarching projects and portfolio pieces
+- [Projects](./Projects/README.md) - Overarching projects and portfolio pieces that tie together multiple study areas
 
 ## How This Works
 
 Each study area follows this structure:
 - **README.md**: Landing page with overview, progress, and links to projects
-- **Project folders**: Individual projects with their own README (blog-style documentation)
+- **Project folders**: Individual projects with their own README
 - **Study notes**: Detailed technical notes from learning sessions
 
 All content is version controlled and synced across my devices via iCloud, Git, and Obsidian. All notes are written in markdown.
