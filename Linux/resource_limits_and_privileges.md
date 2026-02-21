@@ -34,11 +34,14 @@ For managing user privileges:
 
 Example for allowing all *sudo* group members to execute ANY command  
 %sudo ALL=(ALL:ALL) ALL  
-first is user/group - %sudo  
-second is the host - ALL=  
+first is user/group - %sudo (% is needed only for a group)
+second is the hostname - ALL=  
 third is "run as user/group" but is optional - (ALL:ALL)  
+    use (sudo) to run as root
 last is the commands - ALL  
 you can also do `NOPASSWD:ALL` if you want to run every command as *sudo* with NO password
+    if you want to run a single command then you must do `NOPASSWD:` followed by a space and then the command
+    keep in mind that you sometimes have to define the location too for something like `/bin/bash` to run a `bash` command
 
 ## Questions & Notes
 
