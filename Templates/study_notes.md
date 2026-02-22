@@ -2,7 +2,7 @@
 title: "{{title}}"
 date: "{{date}}"
 type: study_notes
-tags: [study, linux]
+tags: [study, IaC]
 ---
 
 # {{title}}
@@ -29,4 +29,4 @@ tags: [study, linux]
 
 ### Parent Note
 
-- [Linux Study Journey](./README.md)
+- [IaC Study Journey](./README.md)
