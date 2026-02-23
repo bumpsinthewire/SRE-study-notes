@@ -8,6 +8,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 
 ## Study Notes
 
+- [datasources](./datasources.md)
 - [IaC_types](./iac_types.md)
 - [providers_basics](./providers_basics.md)
 - [providers_versioning_and_aliases](./providers_versioning_and_aliases.md)
@@ -22,7 +23,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [x] Version Constraint Aliases
 - [x] Variables
 - [x] Resource Attributes and Deps
-- [ ] Datasources
+- [x] Datasources
 - [ ] Terraform State
 - [ ] Terraform Commands
 - [ ] Lifecycle Rules
