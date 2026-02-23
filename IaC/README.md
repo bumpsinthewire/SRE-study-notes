@@ -3,14 +3,18 @@
 My exploration of Infrastructure as Code tools and practices, from basic syntax to advanced state management and cloud provisioning
 
 ## Projects
+
 *(Add as developed)*
 
 ## Study Notes
-*(Add as developed)*
+
+- [IaC_types](./iac_types.md)
+- [terraform_basics](./terraform_basics.md)
 
 ## Progress
+
 - [ ] IaC and Terraform Basics
-- [ ] Providers 
+- [ ] Providers
 - [ ] Version Constraint Aliases
 - [ ] Variables
 - [ ] Resource Attributes and Deps
@@ -28,6 +32,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [ ] Terraform Cloud
 
 ## Goals
+
 - Automate infrastructure deployment and lifecycle management
 - Ensure reproducible and auditable environments
 - Build reusable modules for complex architectures
