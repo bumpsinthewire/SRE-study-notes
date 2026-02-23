@@ -5,7 +5,7 @@ type: study_notes
 tags: [study, IaC]
 ---
 
-# providers
+# providers_basics
 
 ## Key Concepts
 
