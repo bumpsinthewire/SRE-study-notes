@@ -9,17 +9,18 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 ## Study Notes
 
 - [IaC_types](./iac_types.md)
-- [terraform_basics](./terraform_basics.md)
 - [providers_basics](./providers_basics.md)
 - [providers_versioning_and_aliases](./providers_versioning_and_aliases.md)
+- [terraform_basics](./terraform_basics.md)
+- [variables](./variables.md)
 
 ## Progress
 
 - [x] IaC and Terraform Basics
 - [x] Providers
 - [x] Version Constraint Aliases
-- [ ] Variables
-- [ ] Resource Attributes and Deps
+- [x] Variables
+- [x] Resource Attributes and Deps
 - [ ] Datasources
 - [ ] Terraform State
 - [ ] Terraform Commands
