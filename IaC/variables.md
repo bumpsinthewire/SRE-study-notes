@@ -72,6 +72,8 @@ to call a value from a map, use `var.<var_name>["key_name"]`
 
 `sensitive` argument will mask the value if set to `true` (default is `false`)
 the value is still stored in the state file in plaintext though
+`sensitive` variables will NOT be shown in normal `terraform output` on the screen
+the way around this is to use `terraform output <variable>`
 
 ### Parent Note
 
