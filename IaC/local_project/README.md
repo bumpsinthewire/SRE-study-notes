@@ -33,5 +33,42 @@ Using a datasource to pull from for a new resource
 
 ## Results
 
+  # local_file.log_file will be created
+  + resource "local_file" "log_file" {
+      + content              = "Log initialized for sre-automation"
+      + content_base64sha256 = (known after apply)
+      + content_base64sha512 = (known after apply)
+      + content_md5          = (known after apply)
+      + content_sha1         = (known after apply)
+      + content_sha256       = (known after apply)
+      + content_sha512       = (known after apply)
+      + directory_permission = "0777"
+      + file_permission      = "0777"
+      + filename             = "sre-automation/activity.log"
+      + id                   = (known after apply)
+    }
+
+  # local_file.project_folder will be created
+  + resource "local_file" "project_folder" {
+      + content              = <<-EOT
+            Project: sre-automation
+            Environment: development
+            Policy: Secure
+        EOT
+      + content_base64sha256 = (known after apply)
+      + content_base64sha512 = (known after apply)
+      + content_md5          = (known after apply)
+      + content_sha1         = (known after apply)
+      + content_sha256       = (known after apply)
+      + content_sha512       = (known after apply)
+      + directory_permission = "0777"
+      + file_permission      = "0777"
+      + filename             = "sre-automation/README.txt"
+      + id                   = (known after apply)
+    }
+
+Plan: 2 to add, 0 to change, 0 to destroy.
 
 ### Parent Note
+
+- [IaC Study Journey](IaC/README.md)
