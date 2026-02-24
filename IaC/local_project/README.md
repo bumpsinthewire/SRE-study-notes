@@ -9,36 +9,29 @@ tags: [project, IaC]
 
 ## Overview
 
-*(Describe the project and its goals)*
-
-## The Challenge
-
-*(What problem does this solve?)*
+Terraform local project to create some folders and files, using a datasource for the content
 
 ## The Solution
 
-*(Your approach and implementation)*
+Created a local file with text in it to be used as a datasource that would fill in some of the body of the file being created
 
 ### Implementation Logic
 
-*(Why did you choose python/bash)*
+Terraform is mainly used for provisioning infrastructure but is very flexible and can be used for local resources as well
 
 ### Reliability Considerations
 
-*(What did you add to make the script "harder to break")*
+Added `variables.tf` and `outputs.tf` files as well as locking down the `local` provider to a specific version in the `providers.tf` file
 
 ## Key Learnings
 
-*(What you learned from this project)*
+Using a datasource to pull from for a new resource
 
 ## Code Implementation
 
-*(Links to code files and explanations)*
+- [local project](./main.tf)
 
 ## Results
 
-*(Outcomes and impact)*
-
-*(Add a screenshot or code block showing the output of the script)*
 
 ### Parent Note
