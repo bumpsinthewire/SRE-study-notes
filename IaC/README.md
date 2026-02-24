@@ -4,7 +4,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 
 ## Projects
 
-*(Add as developed)*
+- [local_project](./local_project/README.md)
 
 ## Study Notes
 
