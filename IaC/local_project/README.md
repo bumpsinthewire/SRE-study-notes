@@ -71,4 +71,4 @@ Plan: 2 to add, 0 to change, 0 to destroy.
 
 ### Parent Note
 
-- [IaC Study Journey](IaC/README.md)
+- [IaC Study Journey](../README.md)
