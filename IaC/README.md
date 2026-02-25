@@ -4,7 +4,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 
 ## Projects
 
-- [local_project](./local_project/README.md)
+- [Local Project](./local_project/README.md)
 
 ## Study Notes
 
@@ -14,6 +14,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [providers_versioning_and_aliases](./providers_versioning_and_aliases.md)
 - [resource_attributes](./resource_attributes.md)
 - [terraform_basics](./terraform_basics.md)
+- [terraform_state](./terraform_state.md)
 - [variables](./variables.md)
 
 ## Progress

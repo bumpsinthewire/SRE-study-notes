@@ -1,11 +1,11 @@
 ---
-title: "local_project"
+title: "Local Project"
 date: "2026-02-23"
 type: project
 tags: [project, IaC]
 ---
 
-# local_project
+# Local Project
 
 ## Overview
 
@@ -33,6 +33,7 @@ Using a datasource to pull from for a new resource
 
 ## Results
 
+```terraform
   # local_file.log_file will be created
   + resource "local_file" "log_file" {
       + content              = "Log initialized for sre-automation"
@@ -68,6 +69,7 @@ Using a datasource to pull from for a new resource
     }
 
 Plan: 2 to add, 0 to change, 0 to destroy.
+```
 
 ### Parent Note
 
