@@ -14,6 +14,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [providers_versioning_and_aliases](./providers_versioning_and_aliases.md)
 - [resource_attributes](./resource_attributes.md)
 - [terraform_basics](./terraform_basics.md)
+- [terraform_commands](./terraform_commands.md)
 - [terraform_state](./terraform_state.md)
 - [variables](./variables.md)
 
@@ -25,8 +26,8 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [x] Variables
 - [x] Resource Attributes and Deps
 - [x] Datasources
-- [ ] Terraform State
-- [ ] Terraform Commands
+- [x] Terraform State
+- [x] Terraform Commands
 - [ ] Lifecycle Rules
 - [ ] Terraform Taint and Logging
 - [ ] Import and Workspaces
