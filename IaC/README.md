@@ -14,6 +14,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [IaC_types](./iac_types.md)
 - [import](./import.md)
 - [lifecycle_rules](./lifecycle_rules.md)
+- [local_values](./local_values.md)
 - [logging](./logging.md)
 - [providers_basics](./providers_basics.md)
 - [providers_versioning_and_aliases](./providers_versioning_and_aliases.md)
@@ -39,10 +40,10 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [x] Lifecycle Rules
 - [x] Terraform Taint and Logging
 - [x] Import and Workspaces
-- [ ] Provisioners
-- [ ] Functions
-- [ ] Local Values
-- [ ] Dynamic Blocks
+- [x] Provisioners
+- [x] Functions
+- [x] Local Values
+- [x] Dynamic Blocks
 - [ ] Terraform modules
 - [ ] Terraform Cloud
 
