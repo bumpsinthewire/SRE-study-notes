@@ -10,6 +10,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 
 - [datasources](./datasources.md)
 - [IaC_types](./iac_types.md)
+- [import](./import.md)
 - [lifecycle_rules](./lifecycle_rules.md)
 - [logging](./logging.md)
 - [providers_basics](./providers_basics.md)
