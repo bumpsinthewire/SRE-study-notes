@@ -10,6 +10,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 
 - [count_and_for_each](./count_and_for_each.md)
 - [datasources](./datasources.md)
+- [functions](./functions.md)
 - [IaC_types](./iac_types.md)
 - [import](./import.md)
 - [lifecycle_rules](./lifecycle_rules.md)
