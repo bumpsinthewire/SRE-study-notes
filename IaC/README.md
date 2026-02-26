@@ -29,7 +29,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [x] Datasources
 - [x] Terraform State
 - [x] Terraform Commands
-- [ ] Lifecycle Rules
+- [x] Lifecycle Rules
 - [ ] Terraform Taint and Logging
 - [ ] Import and Workspaces
 - [ ] Provisioners
