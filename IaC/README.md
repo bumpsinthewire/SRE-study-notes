@@ -8,6 +8,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 
 ## Study Notes
 
+- [count_and_for_each](./count_and_for_each.md)
 - [datasources](./datasources.md)
 - [IaC_types](./iac_types.md)
 - [import](./import.md)
@@ -15,6 +16,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [logging](./logging.md)
 - [providers_basics](./providers_basics.md)
 - [providers_versioning_and_aliases](./providers_versioning_and_aliases.md)
+- [provisioners](./provisioners.md)
 - [resource_attributes](./resource_attributes.md)
 - [tainting](./tainting.md)
 - [terraform_basics](./terraform_basics.md)
