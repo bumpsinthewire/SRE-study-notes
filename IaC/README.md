@@ -14,6 +14,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [providers_basics](./providers_basics.md)
 - [providers_versioning_and_aliases](./providers_versioning_and_aliases.md)
 - [resource_attributes](./resource_attributes.md)
+- [tainting](./tainting.md)
 - [terraform_basics](./terraform_basics.md)
 - [terraform_commands](./terraform_commands.md)
 - [terraform_state](./terraform_state.md)
