@@ -81,4 +81,3 @@ My exploration of Linux operating systems, from basic commands to advanced syste
 - Understand system administration concepts
 - Build practical automation tools
 - Document learnings in project-based format
-- Obtain LFCS certification
