@@ -11,6 +11,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [datasources](./datasources.md)
 - [IaC_types](./iac_types.md)
 - [lifecycle_rules](./lifecycle_rules.md)
+- [logging](./logging.md)
 - [providers_basics](./providers_basics.md)
 - [providers_versioning_and_aliases](./providers_versioning_and_aliases.md)
 - [resource_attributes](./resource_attributes.md)
@@ -31,7 +32,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [x] Terraform State
 - [x] Terraform Commands
 - [x] Lifecycle Rules
-- [ ] Terraform Taint and Logging
+- [x] Terraform Taint and Logging
 - [ ] Import and Workspaces
 - [ ] Provisioners
 - [ ] Functions
