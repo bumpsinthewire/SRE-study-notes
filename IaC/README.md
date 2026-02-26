@@ -21,6 +21,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [terraform_commands](./terraform_commands.md)
 - [terraform_state](./terraform_state.md)
 - [variables](./variables.md)
+- [workspaces](./workspaces.md)
 
 ## Progress
 
@@ -34,7 +35,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [x] Terraform Commands
 - [x] Lifecycle Rules
 - [x] Terraform Taint and Logging
-- [ ] Import and Workspaces
+- [x] Import and Workspaces
 - [ ] Provisioners
 - [ ] Functions
 - [ ] Local Values
