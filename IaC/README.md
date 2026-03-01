@@ -17,6 +17,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [lifecycle_rules](./lifecycle_rules.md)
 - [local_values](./local_values.md)
 - [logging](./logging.md)
+- [modules](./modules.md)
 - [providers_basics](./providers_basics.md)
 - [providers_versioning_and_aliases](./providers_versioning_and_aliases.md)
 - [provisioners](./provisioners.md)
@@ -45,7 +46,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [x] Functions
 - [x] Local Values
 - [x] Dynamic Blocks
-- [ ] Terraform modules
+- [x] Terraform modules
 - [ ] Terraform Cloud
 
 ## Goals
