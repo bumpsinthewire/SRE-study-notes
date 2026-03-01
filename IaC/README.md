@@ -24,6 +24,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [resource_attributes](./resource_attributes.md)
 - [tainting](./tainting.md)
 - [terraform_basics](./terraform_basics.md)
+- [terraform_cloud](./terraform_cloud.md)
 - [terraform_commands](./terraform_commands.md)
 - [terraform_state](./terraform_state.md)
 - [variables](./variables.md)
@@ -47,7 +48,7 @@ My exploration of Infrastructure as Code tools and practices, from basic syntax 
 - [x] Local Values
 - [x] Dynamic Blocks
 - [x] Terraform modules
-- [ ] Terraform Cloud
+- [x] Terraform Cloud
 
 ## Goals
 
