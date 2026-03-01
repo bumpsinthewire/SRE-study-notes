@@ -58,11 +58,11 @@ one thing to keep in mind about setting the values of variables
 if file is named `terraform.tfvars`, `terraform.tfvars.json`, or ends in `.auto.tfvars` or `.auto.tfvars.json`, TF will auto load the values  
 any other filename used means you have to manually load by using `terraform plan -var-file="production.tfvars"` for example
 
-variable definition precedence:
-    1. environment variables: must preface the variable with `TF_VAR` (case-sensitive)
-    2. terraform.tfvars
-    3. *.auto.tfvars (alphabetical order)
-    4. `-var` or `-var-file`
+variable definition precedence:  
+    1. environment variables: must preface the variable with `TF_VAR` (case-sensitive)  
+    2. terraform.tfvars  
+    3. *.auto.tfvars (alphabetical order)  
+    4. `-var` or `-var-file`  
 however, #4 overrides all of the others  
 most teams use `*.auto.tfvars` method (`networking.auto.tfvars, db.auto.tfvars`)
 
