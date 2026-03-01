@@ -27,7 +27,7 @@ resource "aws_instance" "cerberus" {
 
 ## Questions & Notes
 
-Note that the `data` block is for READ-ONLY
+Note that the `data` block is for READ-ONLY  
 If you want to manage an external resource, you will need to use the `import` block
 
 ### Parent Note
