@@ -9,14 +9,14 @@ tags: [study, IaC]
 
 ## Key Concepts
 
-IaC tools generally fall into 3 categories:
-Configuration management - install/manage software, version control, idempotent
-Server templating - pre-installed software and dependencies, immutable vm/docker images
+IaC tools generally fall into 3 categories:  
+Configuration management - install/manage software, version control, idempotent  
+Server templating - pre-installed software and dependencies, immutable vm/docker images  
 Provisioning tools - deploy immutable infrastructure resources (servers, databases, etc)
 
 ## Questions & Notes
 
-Configuration management tools: Ansible, Salt, Puppet, etc.
+Configuration management tools: Ansible, Salt, Puppet, etc.  
 While these can also be used to provision resources, it is not recommended
 
 Server templating tools: Docker, Vagrant, etc.
