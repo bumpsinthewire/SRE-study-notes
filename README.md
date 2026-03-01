@@ -28,7 +28,7 @@ Each major area has its own folder with a landing page (README) that provides an
 
 - [Linux](./Linux/README.md) - Operating system fundamentals and system administration
 - [IaC](./IaC/README.md) - Infrastructure as Code
-- [Cloud](./Cloud/README.md) - Cloud Infrastructure (planned)
+- [Cloud](./Cloud/README.md) - Cloud Infrastructure
 - [Docker_and_K8s](./Docker_and_K8s/README.md) - Containerization and Orchestration (planned)
 - [Monitoring](./Monitoring/README.md) - Observability and alerting (planned)
 
