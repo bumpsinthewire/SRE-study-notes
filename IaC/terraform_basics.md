@@ -9,8 +9,8 @@ tags: [study, IaC]
 
 ## Key Concepts
 
-`brew tap hashicorp/tap` adds the Hashicorp tap (repository of their Homebrew packages)
-`brew install hashicorp/tap/terraform` installs `terraform`
+`brew tap hashicorp/tap` adds the Hashicorp tap (repository of their Homebrew packages)  
+`brew install hashicorp/tap/terraform` installs `terraform`  
 `terraform --version` shows your TF (terraform) version
 
 example local resource setup
@@ -20,9 +20,9 @@ resource "local_file" "pet" {
     content = "We love pets!"
 }
 ```
-`resource` is the block name. this defines what the item is
-`"local_file"` is the type of resource (local = provider, file = resource)
-`"pet"` is the resource name that you specify
+`resource` is the block name. this defines what the item is  
+`"local_file"` is the type of resource (local = provider, file = resource)  
+`"pet"` is the resource name that you specify  
 `"filename" and "content"` are arguments in key/value pair formats and are specific to the resource type
 
 example AWS EC2 instance
@@ -33,9 +33,9 @@ resource "aws_instance" "web" {
 }
 ```
 
-`terraform init` initializes terraform to install everything needed for the provider(s) you are using in your TF code
-`terraform plan` gives you an output showing what your TF code will do
-`terraform apply` runs your TF code (and shows what it will do)
+`terraform init` initializes terraform to install everything needed for the provider(s) you are using in your TF code  
+`terraform plan` gives you an output showing what your TF code will do  
+`terraform apply` runs your TF code (and shows what it will do)  
 `terraform destroy` will tear down resources (and show you what it will do beforehand)
 
 ## Commands & Examples

@@ -20,12 +20,12 @@ resource "aws_instance" "webserver-2" {
 }
 ```
 
-then you can use the `import` command
+then you can use the `import` command  
 `terraform import aws_instance.webserver-2 <unique ID>`
 
 ## Questions & Notes
 
-`import` does not update configuration files, it just adds a resource into the state file
+`import` does not update configuration files, it just adds a resource into the state file  
 you can use `terraform plan` to make sure that you're config files are up to date with the actual resource
 
 ### Parent Note

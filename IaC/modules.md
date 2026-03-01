@@ -9,7 +9,7 @@ tags: [study, IaC]
 
 ## Key Concepts
 
-Any directory containing Terraform configuration files is considered a module
+Any directory containing Terraform configuration files is considered a module  
 This lets you use folders as different "environments" that can point to one common set of config files
 
 ## Commands & Examples

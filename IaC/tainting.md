@@ -11,19 +11,19 @@ tags: [study, IaC]
 
 If a configuration fails, Terraform will `taint` a resource so that it gets replaced on the next `terraform apply`
 
-There are also times when you **want** TF to replace a resource.
+There are also times when you **want** TF to replace a resource.  
 TF allows for manual "tainting" of a resource for this reason
 
 ## Commands & Examples
 
 `terraform taint [resource_name]` will mark a resource as tainted so that it will be replaced on the next `terraform apply`
 
-to "untaint" a resource it's as simple as using `untaint`
+to "untaint" a resource it's as simple as using `untaint`  
 `terraform untaint [resource_name]`
 
 ## Questions & Notes
 
-Some resources like REST API calls do not update properly.
+Some resources like REST API calls do not update properly.  
 Those resources would be a good use case for this
 
 ### Parent Note

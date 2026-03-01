@@ -51,8 +51,8 @@ provisioner "local-exec" {
 
 ## Questions & Notes
 
-By default, provisioners are run after a resource is created. That behavior can be changed with special values in the `when` argument
-Provisioners will also throw an error message and taint a resource when they fail by default.
+By default, provisioners are run after a resource is created. That behavior can be changed with special values in the `when` argument  
+Provisioners will also throw an error message and taint a resource when they fail by default.  
 Use the `on_failure` argument to change this behavior. Options are `fail` or `continue`
 
 Ideally, you would not use provisioners at all and would use a different tool for configuration management (like Ansible)

@@ -17,8 +17,8 @@ Use `terraform init` to download the required plugins for providers you have lis
 
 ## Questions & Notes
 
-`hashicorp/local` first is the organizational namespace, then the type
-can optionally add a hostname for the location where the plugin is provided from
+`hashicorp/local` first is the organizational namespace, then the type  
+can optionally add a hostname for the location where the plugin is provided from  
 if a hostname is not provided, it defaults to `registry.terraform.io`
 
 ## Resources

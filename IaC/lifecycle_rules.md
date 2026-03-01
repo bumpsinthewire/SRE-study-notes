@@ -9,7 +9,7 @@ tags: [study, IaC]
 
 ## Key Concepts
 
-The default behavior when modifying a resource is to destroy and recreate
+The default behavior when modifying a resource is to destroy and recreate  
 You can change this behavior with the `lifecycle` block
 
 ## Commands & Examples
@@ -60,10 +60,10 @@ resource "aws_instance" "cerberus" {
 
 ## Questions & Notes
 
-`create_before_destroy` means the new resource will be created first before the old one is destroyed
-`prevent_destroy` will make TF reject any changes that would destroy a resource
-this does NOT prevent resources from being destroyed with `terraform destroy`
-`ignore_changes` will prevent a resource from being updated based on what attributes you define in a list
+`create_before_destroy` means the new resource will be created first before the old one is destroyed  
+`prevent_destroy` will make TF reject any changes that would destroy a resource  
+this does NOT prevent resources from being destroyed with `terraform destroy`  
+`ignore_changes` will prevent a resource from being updated based on what attributes you define in a list  
 can also use the "all" keyword to prevent all changes
 
 ### Parent Note

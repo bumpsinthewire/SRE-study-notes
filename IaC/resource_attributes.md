@@ -59,10 +59,10 @@ resource "aws_instance" "web" {
 
 ## Questions & Notes
 
-the syntax to call an attribute from another resource is:
+the syntax to call an attribute from another resource is:  
 `<resource type>.<resource name>.<attribute>`
 
-when using attribute references, if the original changes, the one with the reference will change as well
+when using attribute references, if the original changes, the one with the reference will change as well  
 if you don't want this to happen, you can use the `-target <original_resource_attribute>` flag
 
 ### Parent Note
