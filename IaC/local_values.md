@@ -29,7 +29,7 @@ resource "aws_instance" "web" {
 
 ## Questions & Notes
 
-This is very simple but very powerful.
+This is very simple but very powerful.  
 Using variable interpolation makes this even more flexible
 
 ### Parent Note
