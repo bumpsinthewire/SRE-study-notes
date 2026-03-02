@@ -25,9 +25,7 @@ Using a datasource and an output together for verification
 
 ## Code Implementation
 
-```terraform
-data "aws_caller_identity" "current" {}
-```
+- [auth_text](./main.tf)
 
 ## Results
 
