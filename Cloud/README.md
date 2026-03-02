@@ -4,7 +4,7 @@ My journey through multi-cloud infrastructure management, covering providers, se
 
 ## Projects
 
-*(Add as developed)*
+- [Auth test](./auth-test/README.md)
 
 ## Study Notes
 
