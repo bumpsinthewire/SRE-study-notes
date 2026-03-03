@@ -10,6 +10,13 @@ My journey through multi-cloud infrastructure management, covering providers, se
 
 - [VPC](./vpc.md)
 
+### Project Notes
+
+In this study area, I am using terraform to create each of the resources  
+In each study notes page, there will be a snipper of the `terraform apply` as well as a link to the `<resource_name>.tf` file  
+The state file for this folder is stored in an AWS S3 bucket, and uses DynamoDB for state locking  
+The backend setup config is in it's own folder, called `bootstrap`
+
 ## Progress
 
 - [ ] Public and Private subnets and their gateways
