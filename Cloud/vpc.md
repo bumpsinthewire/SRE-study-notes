@@ -41,8 +41,6 @@ A VPC allows you to have separation between environments as desired
           + "Name" = "cloud-notes"
         }
     }
-
-Plan: 1 to add, 0 to change, 0 to destroy.
 ```
 
 ## Questions & Notes
