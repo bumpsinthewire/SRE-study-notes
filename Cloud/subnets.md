@@ -89,7 +89,7 @@ Subnets:
 
 ## Resources
 
-- [Terraform Single Subnet code](./subnets.tf)
+- [Terraform Single Subnet code](./single_subnet.tf)
 - [Terraform Multiple Subnets code](.multi_subnets.tf)
 
 ### Parent Note
