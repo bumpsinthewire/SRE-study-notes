@@ -3,6 +3,6 @@ resource "aws_vpc" "SRE-notes-example" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "cloud-notes"
+    Name = "${var.prefix}-cloud-notes"
   }
 }
