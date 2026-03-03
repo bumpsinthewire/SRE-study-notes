@@ -39,3 +39,8 @@ Thumbs.db
 
 # Python type checking
 .mypy_cache
+
+# AI Agent state and logs
+AGENTS.md
+.agents/
+agent_logs/
