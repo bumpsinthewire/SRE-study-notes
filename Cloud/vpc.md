@@ -1,11 +1,11 @@
 ---
-title: "{{title}}"
-date: "{{date}}"
+title: "VPC"
+date: "2026-03-03"
 type: study_notes
 tags: [study, Cloud]
 ---
 
-# {{title}}
+# VPC
 
 ## Key Concepts
 

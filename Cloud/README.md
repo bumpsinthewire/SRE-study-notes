@@ -8,7 +8,7 @@ My journey through multi-cloud infrastructure management, covering providers, se
 
 ## Study Notes
 
-*(Add as developed)*
+- [VPC](./vpc.md)
 
 ## Progress
 

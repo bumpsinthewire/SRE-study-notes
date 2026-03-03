@@ -2,7 +2,7 @@
 title: "{{title}}"
 date: "{{date}}"
 type: project
-tags: [project, IaC]
+tags: [project, Cloud]
 ---
 
 # {{title}}
@@ -42,3 +42,5 @@ tags: [project, IaC]
 *(Add a screenshot or code block showing the output of the script)*
 
 ### Parent Note
+
+- [Cloud Study Journey](../README.md)
