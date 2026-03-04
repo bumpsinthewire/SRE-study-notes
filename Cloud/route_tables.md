@@ -20,6 +20,34 @@ The router uses *route tables* to determine where to forward packets
 ## Commands & Examples
 
 ```bash
+  # aws_route.private_nat_access will be created
+  + resource "aws_route" "private_nat_access" {
+      + destination_cidr_block = "0.0.0.0/0"
+      + gateway_id             = (known after apply)
+      + id                     = (known after apply)
+      + instance_id            = (known after apply)
+      + instance_owner_id      = (known after apply)
+      + network_interface_id   = (known after apply)
+      + origin                 = (known after apply)
+      + region                 = "us-east-1"
+      + route_table_id         = (known after apply)
+      + state                  = (known after apply)
+    }
+
+  # aws_route.public_internet_access will be created
+  + resource "aws_route" "public_internet_access" {
+      + destination_cidr_block = "0.0.0.0/0"
+      + gateway_id             = (known after apply)
+      + id                     = (known after apply)
+      + instance_id            = (known after apply)
+      + instance_owner_id      = (known after apply)
+      + network_interface_id   = (known after apply)
+      + origin                 = (known after apply)
+      + region                 = "us-east-1"
+      + route_table_id         = (known after apply)
+      + state                  = (known after apply)
+    }
+
   # aws_route_table.private_route_table will be created
   + resource "aws_route_table" "private_route_table" {
       + arn              = (known after apply)
@@ -79,6 +107,8 @@ Each *subnet* can only be associated with a single *route table*
 ## Resources
 
 - [Terraform Route Table code](./route_tables.tf)
+- [Terraform Public Route Table entries](./public_internet_route.tf)
+- [Terraform Private Route Table entries](./private_nat_route.tf)
 
 ### Parent Note
 
