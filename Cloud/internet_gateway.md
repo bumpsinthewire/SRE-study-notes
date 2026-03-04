@@ -1,11 +1,11 @@
 ---
-title: "internet_gateways"
+title: "Internet Gateways"
 date: "2026-03-04"
 type: study_notes
 tags: [study, Cloud]
 ---
 
-# internet_gateways
+# Internet Gateways
 
 ## Key Concepts
 

@@ -1,11 +1,11 @@
 ---
-title: "nat_gateway"
+title: "NAT Gateway"
 date: "2026-03-04"
 type: study_notes
 tags: [study, Cloud]
 ---
 
-# nat_gateway
+# NAT Gateway
 
 ## Key Concepts
 

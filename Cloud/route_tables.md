@@ -1,11 +1,11 @@
 ---
-title: "VPC_routing"
+title: "Route tables"
 date: "2026-03-03"
 type: study_notes
 tags: [study, Cloud]
 ---
 
-# VPC_routing
+# Route Tables
 
 ## Key Concepts
 

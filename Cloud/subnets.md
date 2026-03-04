@@ -1,11 +1,11 @@
 ---
-title: "subnets"
+title: "Subnets"
 date: "2026-03-03"
 type: study_notes
 tags: [study, Cloud]
 ---
 
-# subnets
+# Subnets
 
 ## Key Concepts
 
