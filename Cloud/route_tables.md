@@ -20,8 +20,8 @@ The router uses *route tables* to determine where to forward packets
 ## Commands & Examples
 
 ```bash
-  # aws_route_table.route_table will be created
-  + resource "aws_route_table" "route_table" {
+  # aws_route_table.private_route_table will be created
+  + resource "aws_route_table" "private_route_table" {
       + arn              = (known after apply)
       + id               = (known after apply)
       + owner_id         = (known after apply)
@@ -29,28 +29,45 @@ The router uses *route tables* to determine where to forward packets
       + region           = "us-east-1"
       + route            = (known after apply)
       + tags             = {
-          + "Name" = "SRE-public-route-table"
+          + "Name" = "SRE-private-subnet-route-table"
         }
       + tags_all         = {
-          + "Name" = "SRE-public-route-table"
+          + "Name" = "SRE-private-subnet-route-table"
         }
       + vpc_id           = (known after apply)
     }
 
-  # aws_route_table_association.pub_assoc[0] will be created
-  + resource "aws_route_table_association" "pub_assoc" {
-      + id             = (known after apply)
-      + region         = "us-east-1"
-      + route_table_id = (known after apply)
-      + subnet_id      = (known after apply)
+  # aws_route_table.public_route_table will be created
+  + resource "aws_route_table" "public_route_table" {
+      + arn              = (known after apply)
+      + id               = (known after apply)
+      + owner_id         = (known after apply)
+      + propagating_vgws = (known after apply)
+      + region           = "us-east-1"
+      + route            = (known after apply)
+      + tags             = {
+          + "Name" = "SRE-public-subnet-route-table"
+        }
+      + tags_all         = {
+          + "Name" = "SRE-public-subnet-route-table"
+        }
+      + vpc_id           = (known after apply)
     }
 
-  # aws_route_table_association.pub_assoc[1] will be created
-  + resource "aws_route_table_association" "pub_assoc" {
+  # aws_route_table_association.IGW_assoc will be created
+  + resource "aws_route_table_association" "IGW_assoc" {
+      + gateway_id     = (known after apply)
       + id             = (known after apply)
       + region         = "us-east-1"
       + route_table_id = (known after apply)
-      + subnet_id      = (known after apply)
+    }
+
+  # aws_route_table_association.NGW_assoc will be created
+  + resource "aws_route_table_association" "NGW_assoc" {
+      + gateway_id     = (known after apply)
+      + id             = (known after apply)
+      + region         = "us-east-1"
+      + route_table_id = (known after apply)
     }
 ```
 

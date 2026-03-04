@@ -1,7 +1,11 @@
 output "vpc_id" {
-  value = aws_vpc.SRE-notes-example.id
+  value = aws_vpc.SRE-notes-VPC.id
 }
 
-output "public_subnets_ids" {
-  value = aws_subnet.pubs[*].id
+output "public_subnet_id" {
+  value = aws_subnet.public.id
+}
+
+output "private_subnet_id" {
+  value = aws_subnet.private.id
 }

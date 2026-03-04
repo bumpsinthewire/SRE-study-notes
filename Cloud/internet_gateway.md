@@ -14,8 +14,8 @@ Internet Gateways (IGW) allow resources to connect to the public internet
 ## Commands & Examples
 
 ```bash
-  # aws_internet_gateway.SRE-gateway will be created
-  + resource "aws_internet_gateway" "SRE-gateway" {
+  # aws_internet_gateway.SRE-internet-gateway will be created
+  + resource "aws_internet_gateway" "SRE-internet-gateway" {
       + arn      = (known after apply)
       + id       = (known after apply)
       + owner_id = (known after apply)

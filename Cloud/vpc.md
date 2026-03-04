@@ -15,8 +15,8 @@ A VPC allows you to have separation between environments as desired
 ## Commands & Examples
 
 ```bash
-  # aws_vpc.SRE-notes-example will be created
-  + resource "aws_vpc" "SRE-notes-example" {
+  # aws_vpc.SRE-notes-VPC will be created
+  + resource "aws_vpc" "SRE-notes-VPC" {
       + arn                                  = (known after apply)
       + cidr_block                           = "10.0.0.0/16"
       + default_network_acl_id               = (known after apply)
@@ -35,10 +35,10 @@ A VPC allows you to have separation between environments as desired
       + owner_id                             = (known after apply)
       + region                               = "us-east-1"
       + tags                                 = {
-          + "Name" = "SRE-cloud-notes"
+          + "Name" = "SRE-notes-VPC"
         }
       + tags_all                             = {
-          + "Name" = "SRE-cloud-notes"
+          + "Name" = "SRE-notes-VPC"
         }
     }
 ```
