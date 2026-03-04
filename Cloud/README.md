@@ -8,8 +8,9 @@ My journey through multi-cloud infrastructure management, covering providers, se
 
 ## Study Notes
 
-- [VPC](./vpc.md)
+- [route_tables](./route_tables.md)
 - [subnets](./subnets.md)
+- [VPC](./vpc.md)
 
 ### Project Notes
 
