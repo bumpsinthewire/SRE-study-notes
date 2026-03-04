@@ -8,7 +8,8 @@ My journey through multi-cloud infrastructure management, covering providers, se
 
 ## Study Notes
 
-- [internet_gateways](./internet_gateways.md)
+- [internet_gateway](./internet_gateway.md)
+- [nat_gateway](./nat_gateway.md)
 - [route_tables](./route_tables.md)
 - [subnets](./subnets.md)
 - [VPC](./vpc.md)
