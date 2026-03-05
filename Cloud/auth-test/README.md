@@ -31,7 +31,7 @@ Using a datasource and an output together for verification
 
 ```terraform
 data.aws_caller_identity.current: Reading...
-data.aws_caller_identity.current: Read complete after 0s [id=731144082285]
+data.aws_caller_identity.current: Read complete after 0s [id=xxxxxxxxxxxx]
 
 Changes to Outputs:
   + aws_account_id = "xxxxxxxxxxxxxx"

@@ -8,7 +8,7 @@ My deep dive into containerization with Docker, from basics to advanced orchestr
 
 ## Study Notes
 
-*(Add as developed)*
+- [kubernetes_architecture](./kubernetes_architecture.md)
 
 ## Progress
 
