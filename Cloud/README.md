@@ -23,7 +23,7 @@ The backend setup config is in its own folder, called `bootstrap`
 
 ## Progress
 
-- [ ] Public and Private subnets and their gateways
+- [x] Public and Private subnets and their gateways
 - [ ] Connecting VPC's inside and across regions
 - [ ] Moving a volume between EC2's
 - [ ] Creating an S3 bucket
