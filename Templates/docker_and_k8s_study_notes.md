@@ -29,4 +29,4 @@ tags: [study, docker_and_k8s]
 
 ### Parent Note
 
-- [Docker and K8s Study Journey](./README.md)
+- [Docker and K8s Study Journey](../README.md)

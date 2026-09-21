@@ -29,4 +29,4 @@ tags: [study, monitoring]
 
 ### Parent Note
 
-- [Monitoring Study Journey](./README.md)
+- [Monitoring Study Journey](../README.md)

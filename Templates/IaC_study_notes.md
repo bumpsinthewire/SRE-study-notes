@@ -29,4 +29,4 @@ tags: [study, IaC]
 
 ### Parent Note
 
-- [IaC Study Journey](./README.md)
+- [IaC Study Journey](../README.md)

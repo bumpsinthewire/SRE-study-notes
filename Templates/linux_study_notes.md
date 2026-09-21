@@ -29,4 +29,4 @@ tags: [study, linux]
 
 ### Parent Note
 
-- [Linux Study Journey](./README.md)
+- [Linux Study Journey](../README.md)

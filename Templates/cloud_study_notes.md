@@ -29,4 +29,4 @@ tags: [study, Cloud]
 
 ### Parent Note
 
-- [Cloud Study Journey](./README.md)
+- [Cloud Study Journey](../README.md)
